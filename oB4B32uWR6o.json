@@ -1,0 +1,2154 @@
+[
+    {'text': 'hello Community today today we do', 'start': 0.52, 'duration': 7.12
+    },
+    {'text': "something that I have no idea of I'm", 'start': 4.12, 'duration': 7.28
+    },
+    {'text': 'looking for Publications today in EI', 'start': 7.64, 'duration': 6.52
+    },
+    {'text': 'that I do not understand just looking at', 'start': 11.4, 'duration': 5.32
+    },
+    {'text': 'them reading the abstract tells me', 'start': 14.16, 'duration': 4.72
+    },
+    {'text': "almost nothing and you know what's the", 'start': 16.72, 'duration': 5.08
+    },
+    {'text': 'beauty we can learn because today I will', 'start': 18.88, 'duration': 5.719
+    },
+    {'text': 'leave my bubble and I show you somei', 'start': 21.8, 'duration': 5.719
+    },
+    {'text': 'papers I have to learn in the afternoon', 'start': 24.599, 'duration': 5.641
+    },
+    {'text': 'I have to sit down and read those papers', 'start': 27.519, 'duration': 6.161
+    },
+    {'text': "so let's start here planning with owld", 'start': 30.24, 'duration': 4.6
+    },
+    {'text': 'DL', 'start': 33.68, 'duration': 3.48
+    },
+    {'text': 'ontologies and you might say hey that', 'start': 34.84, 'duration': 6.0
+    },
+    {'text': 'sounds good so where are we we are in', 'start': 37.16, 'duration': 6.68
+    },
+    {'text': 'robotics systems for automated planning', 'start': 40.84, 'duration': 5.52
+    },
+    {'text': 'compute plans for a planning domain', 'start': 43.84, 'duration': 4.68
+    },
+    {'text': 'which defines a set of available actions', 'start': 46.36, 'duration': 4.6
+    },
+    {'text': 'we Noti this that describe how states of', 'start': 48.52, 'duration': 5.16
+    },
+    {'text': 'a system can be modified our robotic', 'start': 50.96, 'duration': 6.119
+    },
+    {'text': 'sync a planning problem can consist of', 'start': 53.68, 'duration': 6.039
+    },
+    {'text': 'an initial State a domain of objects and', 'start': 57.079, 'duration': 4.521
+    },
+    {'text': 'a goal that needs to be reached for', 'start': 59.719, 'duration': 3.8
+    },
+    {'text': 'which the planet computes a plan in the', 'start': 61.6, 'duration': 4.519
+    },
+    {'text': 'form of sequence of action that would', 'start': 63.519, 'duration': 4.96
+    },
+    {'text': 'lead from the initial state to the state', 'start': 66.119, 'duration': 5.401
+    },
+    {'text': 'satisfying the goals we have here a', 'start': 68.479, 'duration': 5.68
+    },
+    {'text': 'closed World semantics meaning yes yes', 'start': 71.52, 'duration': 5.48
+    },
+    {'text': 'yes you know ontologies are widely used', 'start': 74.159, 'duration': 4.441
+    },
+    {'text': 'the formalism for describing complex', 'start': 77.0, 'duration': 3.439
+    },
+    {'text': 'domain knowledge under the open world', 'start': 78.6, 'duration': 4.199
+    },
+    {'text': 'semantics here we assume our knowledge', 'start': 80.439, 'duration': 5.841
+    },
+    {'text': 'of the world to be generally incomplete', 'start': 82.799, 'duration': 6.521
+    },
+    {'text': 'exactly like my knowledge today so the', 'start': 86.28, 'duration': 5.04
+    },
+    {'text': 'antology defines terminology and the', 'start': 89.32, 'duration': 3.92
+    },
+    {'text': 'background knowledge relevant for the', 'start': 91.32, 'duration': 3.88
+    },
+    {'text': 'application scenario which allows to', 'start': 93.24, 'duration': 4.72
+    },
+    {'text': 'infer new information from an incom', 'start': 95.2, 'duration': 5.239
+    },
+    {'text': 'complete description of the', 'start': 97.96, 'duration': 5.839
+    },
+    {'text': "world so let's start in the abstract so", 'start': 100.439, 'duration': 6.201
+    },
+    {'text': 'we know they here University of Oslo and', 'start': 103.799, 'duration': 5.241
+    },
+    {'text': 'the F University from Amsterdam we', 'start': 106.64, 'duration': 5.479
+    },
+    {'text': 'introduce ontology mediated planning in', 'start': 109.04, 'duration': 5.079
+    },
+    {'text': 'which planning problems are combined', 'start': 112.119, 'duration': 3.32
+    },
+    {'text': 'with an', 'start': 114.119, 'duration': 4.521
+    },
+    {'text': 'ontology this goes beyond what existing', 'start': 115.439, 'duration': 5.921
+    },
+    {'text': 'approaches combined automated planning', 'start': 118.64, 'duration': 5.24
+    },
+    {'text': 'with ontologist can do which only', 'start': 121.36, 'duration': 5.0
+    },
+    {'text': 'support limited description logic such', 'start': 123.88, 'duration': 4.879
+    },
+    {'text': 'as Dr Light and description logic that', 'start': 126.36, 'duration': 7.12
+    },
+    {'text': 'or horn now the main point now is the', 'start': 128.759, 'duration': 6.601
+    },
+    {'text': 'main algorithm that they propose relies', 'start': 133.48, 'duration': 4.32
+    },
+    {'text': 'on reiting of the ontology based', 'start': 135.36, 'duration': 4.599
+    },
+    {'text': 'planning specification into', 'start': 137.8, 'duration': 4.96
+    },
+    {'text': 'pddl so that existing planning system', 'start': 139.959, 'duration': 5.801
+    },
+    {'text': 'can be used to solve them and they use a', 'start': 142.76, 'duration': 7.96
+    },
+    {'text': 'this now you know me when I started yes', 'start': 145.76, 'duration': 7.16
+    },
+    {'text': 'we we use books at the University I know', 'start': 150.72, 'duration': 4.12
+    },
+    {'text': 'that my younger generation say what is a', 'start': 152.92, 'duration': 4.64
+    },
+    {'text': 'book but you know I remember he a book o', 'start': 154.84, 'duration': 5.479
+    },
+    {'text': 'descriptive logic based onology language', 'start': 157.56, 'duration': 5.8
+    },
+    {'text': 'for the semantic web and I had to look', 'start': 160.319, 'duration': 7.0
+    },
+    {'text': 'up in the book here the DL syntax so I', 'start': 163.36, 'duration': 6.599
+    },
+    {'text': 'had to look about the descriptive logic', 'start': 167.319, 'duration': 5.881
+    },
+    {'text': 'syntax here because okay you see here', 'start': 169.959, 'duration': 5.841
+    },
+    {'text': 'nice and then if we scroll down so the', 'start': 173.2, 'duration': 4.24
+    },
+    {'text': 'descriptive the data range the', 'start': 175.8, 'duration': 4.719
+    },
+    {'text': 'properties individual and data value use', 'start': 177.44, 'duration': 5.12
+    },
+    {'text': 'and here on the next page by the way', 'start': 180.519, 'duration': 3.921
+    },
+    {'text': 'this is a book by hars Patel Schneider', 'start': 182.56, 'duration': 4.64
+    },
+    {'text': 'Guinness and valty we have here the DL', 'start': 184.44, 'duration': 8.0
+    },
+    {'text': 'syntax here the aoms and the facts so if', 'start': 187.2, 'duration': 8.16
+    },
+    {'text': 'you learn this you have an idea okay but', 'start': 192.44, 'duration': 5.76
+    },
+    {'text': 'what we are dealing here but for my', 'start': 195.36, 'duration': 4.799
+    },
+    {'text': "younger generation you don't need a BG", 'start': 198.2, 'duration': 5.119
+    },
+    {'text': 'you just go to chat GPD to the latest', 'start': 200.159, 'duration': 6.121
+    },
+    {'text': '0808 version and I told them hey can you', 'start': 203.319, 'duration': 4.801
+    },
+    {'text': 'explain at the topic of logic the term', 'start': 206.28, 'duration': 5.44
+    },
+    {'text': 'wld DL and what does it mean rewrites', 'start': 208.12, 'duration': 5.56
+    },
+    {'text': 'here the ontology mediated planning', 'start': 211.72, 'duration': 3.64
+    },
+    {'text': 'specification into', 'start': 213.68, 'duration': 5.279
+    },
+    {'text': 'pddl then you get here beautiful AR web', 'start': 215.36, 'duration': 6.599
+    },
+    {'text': "ontology language descriptive logic it's", 'start': 218.959, 'duration': 5.121
+    },
+    {'text': 'a sublanguage of the web ontology', 'start': 221.959, 'duration': 4.961
+    },
+    {'text': 'language yes descriptive Logic', 'start': 224.08, 'duration': 5.719
+    },
+    {'text': 'expressiveness pddl the planning domain', 'start': 226.92, 'duration': 5.8
+    },
+    {'text': 'definition language ontology mediated', 'start': 229.799, 'duration': 4.44
+    },
+    {'text': 'planning refers to the integration of', 'start': 232.72, 'duration': 3.879
+    },
+    {'text': 'ontological knowledge into the planning', 'start': 234.239, 'duration': 6.08
+    },
+    {'text': 'process in EI planning in EI is is now', 'start': 236.599, 'duration': 5.56
+    },
+    {'text': 'something that is suddenly here in a', 'start': 240.319, 'duration': 4.601
+    },
+    {'text': 'kind of a mathematical form of logic and', 'start': 242.159, 'duration': 6.72
+    },
+    {'text': 'is not as easy as you thought so all the', 'start': 244.92, 'duration': 6.44
+    },
+    {'text': 'requests got from people that said hey I', 'start': 248.879, 'duration': 4.521
+    },
+    {'text': 'just entering University or my second', 'start': 251.36, 'duration': 3.64
+    },
+    {'text': 'semester in mathematics or theoretical', 'start': 253.4, 'duration': 4.6
+    },
+    {'text': 'physics or computer science and we are', 'start': 255.0, 'duration': 5.639
+    },
+    {'text': "learning here stuff that I don't see any", 'start': 258.0, 'duration': 8.12
+    },
+    {'text': 'ey well now is the time now eii', 'start': 260.639, 'duration': 9.12
+    },
+    {'text': 'evolves that now we use all these new', 'start': 266.12, 'duration': 7.56
+    },
+    {'text': 'new quotation mark mathematical ideas', 'start': 269.759, 'duration': 8.321
+    },
+    {'text': 'forms logic new languages to implement', 'start': 273.68, 'duration': 7.32
+    },
+    {'text': 'our new ideas in AI because the easy', 'start': 278.08, 'duration': 6.2
+    },
+    {'text': 'phase of eii is done we have explored', 'start': 281.0, 'duration': 6.88
+    },
+    {'text': 'this phace and now we need here the more', 'start': 284.28, 'duration': 6.12
+    },
+    {'text': "advanced let's say University level", 'start': 287.88, 'duration': 7.44
+    },
+    {'text': 'ideas and now we apply those into the DI', 'start': 290.4, 'duration': 7.2
+    },
+    {'text': 'research so therefore if you study', 'start': 295.32, 'duration': 5.08
+    },
+    {'text': 'mathematics right now yes you combine', 'start': 297.6, 'duration': 5.12
+    },
+    {'text': 'this beautifully now with computer', 'start': 300.4, 'duration': 3.88
+    },
+    {'text': 'science', 'start': 302.72, 'duration': 4.68
+    },
+    {'text': 'EI so rewriting ontology immediated', 'start': 304.28, 'duration': 5.639
+    },
+    {'text': 'planning specification into pddl and it', 'start': 307.4, 'duration': 4.4
+    },
+    {'text': 'gives you here exactly what it looks', 'start': 309.919, 'duration': 4.28
+    },
+    {'text': 'like and this is here the power of chat', 'start': 311.8, 'duration': 6.2
+    },
+    {'text': 'GPT and I use it to to learn to educate', 'start': 314.199, 'duration': 7.321
+    },
+    {'text': 'myself on topics I have long forgotten', 'start': 318.0, 'duration': 5.8
+    },
+    {'text': 'okay so provides a formal framework for', 'start': 321.52, 'duration': 4.679
+    },
+    {'text': 'representing complex domain knowledge', 'start': 323.8, 'duration': 6.28
+    },
+    {'text': 'using description logic when this is', 'start': 326.199, 'duration': 7.201
+    },
+    {'text': 'used in AI planning in ontology mediated', 'start': 330.08, 'duration': 6.0
+    },
+    {'text': 'planning it often needs to be translated', 'start': 333.4, 'duration': 5.079
+    },
+    {'text': 'into a pddl format to be processed by', 'start': 336.08, 'duration': 5.08
+    },
+    {'text': 'existing planning tools so the term', 'start': 338.479, 'duration': 4.681
+    },
+    {'text': 'rewriting of onology mediated planning', 'start': 341.16, 'duration': 4.319
+    },
+    {'text': 'specification in the pddl refers to this', 'start': 343.16, 'duration': 4.64
+    },
+    {'text': 'translation process where the rich', 'start': 345.479, 'duration': 4.72
+    },
+    {'text': 'expressive construct of the L are', 'start': 347.8, 'duration': 4.64
+    },
+    {'text': 'converted into the more structured', 'start': 350.199, 'duration': 4.921
+    },
+    {'text': 'action oriented language of pddl', 'start': 352.44, 'duration': 4.28
+    },
+    {'text': 'ensuring that the resulting plans are', 'start': 355.12, 'duration': 4.16
+    },
+    {'text': 'consistent with the original ontological', 'start': 356.72, 'duration': 3.96
+    },
+    {'text': 'n', 'start': 359.28, 'duration': 3.88
+    },
+    {'text': 'knowledge and then for my green grass up', 'start': 360.68, 'duration': 4.799
+    },
+    {'text': 'said hey can you explain the ontology', 'start': 363.16, 'duration': 5.64
+    },
+    {'text': 'relation in the term ontology mediated', 'start': 365.479, 'duration': 5.84
+    },
+    {'text': 'planning and it goes on and explain what', 'start': 368.8, 'duration': 5.48
+    },
+    {'text': 'is an anology Nei a formal specification', 'start': 371.319, 'duration': 5.241
+    },
+    {'text': 'of the concept of the entities and', 'start': 374.28, 'duration': 5.28
+    },
+    {'text': 'relationship within a specific domain it', 'start': 376.56, 'duration': 5.32
+    },
+    {'text': 'provides a shared vocabulary and a set', 'start': 379.56, 'duration': 5.079
+    },
+    {'text': 'of rules or axioms that describe how', 'start': 381.88, 'duration': 6.36
+    },
+    {'text': 'these concepts are related ontologies', 'start': 384.639, 'duration': 5.201
+    },
+    {'text': 'are typically used to model comp Le Lex', 'start': 388.24, 'duration': 3.16
+    },
+    {'text': 'domains in a way that both humans and', 'start': 389.84, 'duration': 4.04
+    },
+    {'text': 'machine can understand you have classes', 'start': 391.4, 'duration': 4.56
+    },
+    {'text': 'properties', 'start': 393.88, 'duration': 4.599
+    },
+    {'text': 'instances and it explains you this', 'start': 395.96, 'duration': 5.92
+    },
+    {'text': 'beautifully so the power to use jet gbt', 'start': 398.479, 'duration': 6.44
+    },
+    {'text': "is you don't have to look it up in your", 'start': 401.88, 'duration': 6.64
+    },
+    {'text': 'old books from Stanford here for example', 'start': 404.919, 'duration': 6.12
+    },
+    {'text': 'but you have it available of course you', 'start': 408.52, 'duration': 5.16
+    },
+    {'text': "don't know here if CH GPT is not", 'start': 411.039, 'duration': 5.241
+    },
+    {'text': "hallucinating and you don't have it in a", 'start': 413.68, 'duration': 7.16
+    },
+    {'text': 'detail that is maybe available in some', 'start': 416.28, 'duration': 7.479
+    },
+    {'text': 'books so it depends but I think this is', 'start': 420.84, 'duration': 4.68
+    },
+    {'text': 'a nice application of J', 'start': 423.759, 'duration': 4.16
+    },
+    {'text': 'G beautiful classes relationship', 'start': 425.52, 'duration': 6.88
+    },
+    {'text': 'constraint yes yes yes okay so you see', 'start': 427.919, 'duration': 7.241
+    },
+    {'text': 'and then if we have or if I have now', 'start': 432.4, 'duration': 5.079
+    },
+    {'text': 'first understanding what is going on in', 'start': 435.16, 'duration': 5.439
+    },
+    {'text': 'this AI publication I think okay now I', 'start': 437.479, 'duration': 5.201
+    },
+    {'text': 'understand here the term ontology mediat', 'start': 440.599, 'duration': 4.201
+    },
+    {'text': 'planning specification as a new', 'start': 442.68, 'duration': 3.6
+    },
+    {'text': 'framework for linking the planning', 'start': 444.8, 'duration': 2.72
+    },
+    {'text': 'problems with', 'start': 446.28, 'duration': 4.72
+    },
+    {'text': 'ontologies and then I can start to read', 'start': 447.52, 'duration': 6.079
+    },
+    {'text': 'and then it gets rather complicated but', 'start': 451.0, 'duration': 4.4
+    },
+    {'text': 'this is a beautiful publication', 'start': 453.599, 'duration': 4.04
+    },
+    {'text': 'therefore I would like to show you this', 'start': 455.4, 'duration': 5.04
+    },
+    {'text': 'publication they specify what is an', 'start': 457.639, 'duration': 5.041
+    },
+    {'text': 'action here they say what is a planning', 'start': 460.44, 'duration': 4.84
+    },
+    {'text': 'domain in mathematical details they give', 'start': 462.68, 'duration': 5.359
+    },
+    {'text': 'you here the definition the description', 'start': 465.28, 'duration': 5.919
+    },
+    {'text': 'logic and the ontology they Define this', 'start': 468.039, 'duration': 5.0
+    },
+    {'text': 'and then they Define here the framework', 'start': 471.199, 'duration': 4.96
+    },
+    {'text': 'for their ontology mediated planning and', 'start': 473.039, 'duration': 5.041
+    },
+    {'text': 'if you have a look at this here an', 'start': 476.159, 'duration': 4.241
+    },
+    {'text': 'ontology mediated planning specification', 'start': 478.08, 'duration': 5.559
+    },
+    {'text': 'is a topple of and then you can jump', 'start': 480.4, 'duration': 6.88
+    },
+    {'text': 'right into this plus evaluation', 'start': 483.639, 'duration': 5.641
+    },
+    {'text': 'conclusion proofs and lammer if you', 'start': 487.28, 'duration': 3.759
+    },
+    {'text': 'really want to dive into the mathematics', 'start': 489.28, 'duration': 3.8
+    },
+    {'text': 'they have all of this available for you', 'start': 491.039, 'duration': 4.16
+    },
+    {'text': 'so this is the way how I will learn here', 'start': 493.08, 'duration': 4.2
+    },
+    {'text': "in the afternoon hopefully I'm", 'start': 495.199, 'duration': 4.44
+    },
+    {'text': 'intelligent enough to understand this', 'start': 497.28, 'duration': 5.879
+    },
+    {'text': 'what is going on in robotics now for the', 'start': 499.639, 'duration': 6.24
+    },
+    {'text': 'planning domain and you see it is not', 'start': 503.159, 'duration': 6.521
+    },
+    {'text': 'anymore our simple mathematic', 'start': 505.879, 'duration': 7.761
+    },
+    {'text': 'understanding but now we need here some', 'start': 509.68, 'duration': 7.239
+    },
+    {'text': 'consistent mathematical theory that we', 'start': 513.64, 'duration': 5.879
+    },
+    {'text': 'have already from statistical and', 'start': 516.919, 'duration': 5.36
+    },
+    {'text': 'mathematical and whatever applications', 'start': 519.519, 'duration': 6.0
+    },
+    {'text': 'and we now use this here for the next', 'start': 522.279, 'duration': 4.201
+    },
+    {'text': 'step', 'start': 525.519, 'duration': 6.081
+    },
+    {'text': 'Nei beautiful so next thing I would like', 'start': 526.48, 'duration': 7.32
+    },
+    {'text': 'to show you is a power consistent', 'start': 531.6, 'duration': 4.799
+    },
+    {'text': 'framework and here the abductive', 'start': 533.8, 'duration': 4.4
+    },
+    {'text': 'reasoning in a power consistent', 'start': 536.399, 'duration': 4.761
+    },
+    {'text': 'framework we here University of bordo', 'start': 538.2, 'duration': 4.8
+    },
+    {'text': 'the Japanese French laboratory for', 'start': 541.16, 'duration': 4.04
+    },
+    {'text': 'informatics and National Institute of', 'start': 543.0, 'duration': 4.16
+    },
+    {'text': 'informatics Tokyo', 'start': 545.2, 'duration': 4.48
+    },
+    {'text': 'Japan I have something about par', 'start': 547.16, 'duration': 7.84
+    },
+    {'text': 'consistent wait a second because what', 'start': 549.68, 'duration': 5.32
+    },
+    {'text': 'like and I say to tb4 explain the', 'start': 555.32, 'duration': 4.44
+    },
+    {'text': 'meaning of a classical inconsistent', 'start': 558.0, 'duration': 5.24
+    },
+    {'text': 'Theory by adopting a power consistent', 'start': 559.76, 'duration': 6.72
+    },
+    {'text': 'framework so goes on grasp the meaning', 'start': 563.24, 'duration': 5.52
+    },
+    {'text': 'yes it is s the concept of classical', 'start': 566.48, 'duration': 4.72
+    },
+    {'text': 'inconsist consistency power consistent', 'start': 568.76, 'duration': 4.519
+    },
+    {'text': 'logic and how to adopt a power', 'start': 571.2, 'duration': 4.44
+    },
+    {'text': 'consistent framework that allows for', 'start': 573.279, 'duration': 4.521
+    },
+    {'text': 'Meaningful reasoning with inconsistent', 'start': 575.64, 'duration': 4.52
+    },
+    {'text': 'theories so you see we have here our', 'start': 577.8, 'duration': 5.52
+    },
+    {'text': 'classical mathematical logic where you', 'start': 580.16, 'duration': 6.28
+    },
+    {'text': 'cannot have both to be true this means p', 'start': 583.32, 'duration': 3.84
+    },
+    {'text': 'and', 'start': 586.44, 'duration': 3.68
+    },
+    {'text': 'nonp then we have an inconsistent Theory', 'start': 587.16, 'duration': 4.919
+    },
+    {'text': 'this is a theory considered inconsistent', 'start': 590.12, 'duration': 3.8
+    },
+    {'text': 'if it contains at least one', 'start': 592.079, 'duration': 3.841
+    },
+    {'text': "contradiction this means there's one", 'start': 593.92, 'duration': 5.52
+    },
+    {'text': 'statement P that both p and nonp are', 'start': 595.92, 'duration': 5.919
+    },
+    {'text': 'derivable within this particular', 'start': 599.44, 'duration': 4.68
+    },
+    {'text': 'inconsistent Theory and then we have the', 'start': 601.839, 'duration': 6.24
+    },
+    {'text': 'explosion principle or xile quot Li in', 'start': 604.12, 'duration': 5.959
+    },
+    {'text': 'the classical logic from a contradiction', 'start': 608.079, 'duration': 3.681
+    },
+    {'text': 'any statement can be derived this is', 'start': 610.079, 'duration': 3.721
+    },
+    {'text': 'known as the principle of', 'start': 611.76, 'duration': 6.24
+    },
+    {'text': 'explosion but now paraconsistent logic', 'start': 613.8, 'duration': 6.279
+    },
+    {'text': 'is a non-classical logic framework', 'start': 618.0, 'duration': 3.32
+    },
+    {'text': 'designed to handle contradiction in a', 'start': 620.079, 'duration': 4.2
+    },
+    {'text': 'controlled manner beautiful this this', 'start': 621.32, 'duration': 5.72
+    },
+    {'text': 'clear and simple explanation by CH tb4', 'start': 624.279, 'duration': 5.68
+    },
+    {'text': 'if you starting this is really nice', 'start': 627.04, 'duration': 4.76
+    },
+    {'text': 'so unlike classical Logic power', 'start': 629.959, 'duration': 3.681
+    },
+    {'text': 'consistent logic rejects the principle', 'start': 631.8, 'duration': 4.24
+    },
+    {'text': 'of explosion allowing theories to be', 'start': 633.64, 'duration': 5.6
+    },
+    {'text': 'inconsistent without becoming trivial', 'start': 636.04, 'duration': 5.4
+    },
+    {'text': 'and this is not', 'start': 639.24, 'duration': 5.24
+    },
+    {'text': 'trivial we have our key feature our', 'start': 641.44, 'duration': 5.12
+    },
+    {'text': 'applications and therefore adopting a', 'start': 644.48, 'duration': 3.4
+    },
+    {'text': 'paraconsistent framework for', 'start': 646.56, 'duration': 3.88
+    },
+    {'text': 'inconsistent theories so when faced with', 'start': 647.88, 'duration': 5.48
+    },
+    {'text': 'a classical inconsistent Theory classic', 'start': 650.44, 'duration': 5.399
+    },
+    {'text': 'C is a little bit stretch but okay', 'start': 653.36, 'duration': 4.32
+    },
+    {'text': 'meaning a set of statements that lead to', 'start': 655.839, 'duration': 3.961
+    },
+    {'text': 'contradiction under the classical logic', 'start': 657.68, 'duration': 3.88
+    },
+    {'text': 'one might still want to extract', 'start': 659.8, 'duration': 4.08
+    },
+    {'text': 'meaningful information from it without', 'start': 661.56, 'duration': 3.719
+    },
+    {'text': 'succumbing to', 'start': 663.88, 'duration': 4.04
+    },
+    {'text': 'triviality framework adoption yes yes', 'start': 665.279, 'duration': 3.68
+    },
+    {'text': 'yes', 'start': 667.92, 'duration': 4.159
+    },
+    {'text': 'example okay so a power consistent', 'start': 668.959, 'duration': 5.12
+    },
+    {'text': 'framework medical practitioner can', 'start': 672.079, 'duration': 3.921
+    },
+    {'text': 'recognize the inconsistency regarding', 'start': 674.079, 'duration': 4.121
+    },
+    {'text': "the patient's fever status but still", 'start': 676.0, 'duration': 4.76
+    },
+    {'text': 'make meaningful decisions based on the', 'start': 678.2, 'duration': 5.439
+    },
+    {'text': 'other consistent information in the', 'start': 680.76, 'duration': 4.72
+    },
+    {'text': 'database', 'start': 683.639, 'duration': 4.481
+    },
+    {'text': 'conclusion strategy of handling a set of', 'start': 685.48, 'duration': 5.12
+    },
+    {'text': 'contradictory stat ments inconsistent', 'start': 688.12, 'duration': 5.399
+    },
+    {'text': 'Theory by imploring a logical system a', 'start': 690.6, 'duration': 5.799
+    },
+    {'text': 'power consistent logic that allows for', 'start': 693.519, 'duration': 4.681
+    },
+    {'text': 'contradiction without descending into', 'start': 696.399, 'duration': 3.761
+    },
+    {'text': 'logical chaos where any and effort', 'start': 698.2, 'duration': 4.8
+    },
+    {'text': 'statement becomes provable this approach', 'start': 700.16, 'duration': 4.6
+    },
+    {'text': 'facilitates meaningful reasoning and', 'start': 703.0, 'duration': 3.6
+    },
+    {'text': 'Analysis and the presence of', 'start': 704.76, 'duration': 4.759
+    },
+    {'text': 'inconsistencies which is invaluable in', 'start': 706.6, 'duration': 5.28
+    },
+    {'text': 'complex real world scenarios where', 'start': 709.519, 'duration': 4.961
+    },
+    {'text': 'perfect consistency is simply', 'start': 711.88, 'duration': 6.399
+    },
+    {'text': 'unattainable so now I have an idea where', 'start': 714.48, 'duration': 7.4
+    },
+    {'text': 'I am what is a paraconsistent framework', 'start': 718.279, 'duration': 6.441
+    },
+    {'text': 'and now we go to abductive reasoning so', 'start': 721.88, 'duration': 5.56
+    },
+    {'text': "we're here talking about the reasoning", 'start': 724.72, 'duration': 5.239
+    },
+    {'text': 'procedures in thei but now in a', 'start': 727.44, 'duration': 4.519
+    },
+    {'text': 'paraconsistent', 'start': 729.959, 'duration': 4.801
+    },
+    {'text': 'framework and you might say okay this is', 'start': 731.959, 'duration': 5.921
+    },
+    {'text': 'beautiful so how should we code this', 'start': 734.76, 'duration': 5.48
+    },
+    {'text': 'well beautiful thing is this has already', 'start': 737.88, 'duration': 4.68
+    },
+    {'text': 'been done for you but we have to', 'start': 740.24, 'duration': 5.56
+    },
+    {'text': 'understand what is going on here because', 'start': 742.56, 'duration': 5.32
+    },
+    {'text': 'the proof what is going on this is', 'start': 745.8, 'duration': 3.719
+    },
+    {'text': 'beautiful we have done the proof Pro of', 'start': 747.88, 'duration': 3.079
+    },
+    {'text': 'proposition one and the proof of', 'start': 749.519, 'duration': 4.081
+    },
+    {'text': 'proposition two and then we have the LMA', 'start': 750.959, 'duration': 4.801
+    },
+    {'text': 'the falling Lama yes beautiful so you', 'start': 753.6, 'duration': 5.76
+    },
+    {'text': "see this is now a kind of let's call", 'start': 755.76, 'duration': 6.759
+    },
+    {'text': 'it not so simple mathematics that we', 'start': 759.36, 'duration': 7.8
+    },
+    {'text': 'apply now to EI where the classical', 'start': 762.519, 'duration': 7.601
+    },
+    {'text': 'coder the classical people who use and', 'start': 767.16, 'duration': 7.72
+    },
+    {'text': 'apply EI might not be', 'start': 770.12, 'duration': 7.32
+    },
+    {'text': 'immediately powerful enough to apply', 'start': 774.88, 'duration': 4.84
+    },
+    {'text': 'this knowledge and this is why I say', 'start': 777.44, 'duration': 6.16
+    },
+    {'text': 'this AI 2.0 where now the universities', 'start': 779.72, 'duration': 5.679
+    },
+    {'text': 'where the students of mathematics the', 'start': 783.6, 'duration': 5.2
+    },
+    {'text': 'students of computer science now they', 'start': 785.399, 'duration': 6.8
+    },
+    {'text': 'will shine now it is their time to drive', 'start': 788.8, 'duration': 7.2
+    },
+    {'text': 'EI further from a simplified AI', 'start': 792.199, 'duration': 7.841
+    },
+    {'text': 'understanding now to a new level but I', 'start': 796.0, 'duration': 6.92
+    },
+    {'text': 'was here at a very abstract I did not', 'start': 800.04, 'duration': 5.68
+    },
+    {'text': 'understand even the abstract so I have', 'start': 802.92, 'duration': 5.68
+    },
+    {'text': "to learn a little bit so let's make it a", 'start': 805.72, 'duration': 5.0
+    },
+    {'text': 'little bit bigger here we explored a', 'start': 808.6, 'duration': 3.76
+    },
+    {'text': 'problem of explaining observations', 'start': 810.72, 'duration': 3.52
+    },
+    {'text': 'starting from a classical inconsistent', 'start': 812.36, 'duration': 3.32
+    },
+    {'text': 'Theory now we know what it is by', 'start': 814.24, 'duration': 3.44
+    },
+    {'text': 'adopting a paraconsistent framework now', 'start': 815.68, 'duration': 4.519
+    },
+    {'text': 'I know what this is we consider two', 'start': 817.68, 'duration': 5.32
+    },
+    {'text': 'expansion of the well-known bnip D par', 'start': 820.199, 'duration': 4.721
+    },
+    {'text': 'consistent four valued', 'start': 823.0, 'duration': 4.519
+    },
+    {'text': 'logic okay I need either my book so at', 'start': 824.92, 'duration': 6.479
+    },
+    {'text': 'gbt 4 so you see this is how learning', 'start': 827.519, 'duration': 5.921
+    },
+    {'text': 'something new', 'start': 831.399, 'duration': 6.68
+    },
+    {'text': 'starts and adoption in the balab D Logic', 'start': 833.44, 'duration': 6.8
+    },
+    {'text': 'the agent is only that f is true the', 'start': 838.079, 'duration': 4.401
+    },
+    {'text': 'agent is only told that f is false the', 'start': 840.24, 'duration': 4.36
+    },
+    {'text': 'agent is told that f is false and that', 'start': 842.48, 'duration': 4.479
+    },
+    {'text': 'it is', 'start': 844.6, 'duration': 2.359
+    },
+    {'text': 'true and you see oh yeah here here it', 'start': 847.12, 'duration': 5.68
+    },
+    {'text': 'goes so beautiful so here we have now', 'start': 849.88, 'duration': 6.28
+    },
+    {'text': 'our if you want logic explained and why', 'start': 852.8, 'duration': 5.76
+    },
+    {'text': 'and how this is working and I have no', 'start': 856.16, 'duration': 4.56
+    },
+    {'text': 'idea just looking at this I can tell you', 'start': 858.56, 'duration': 5.32
+    },
+    {'text': "I don't understand a thing but you", 'start': 860.72, 'duration': 5.039
+    },
+    {'text': 'should and if you enter University if', 'start': 863.88, 'duration': 3.44
+    },
+    {'text': 'you plan to go to university for', 'start': 865.759, 'duration': 2.801
+    },
+    {'text': 'computer science or mathematic or', 'start': 867.32, 'duration': 3.36
+    },
+    {'text': 'theoretical physics this is what you', 'start': 868.56, 'duration': 3.959
+    },
+    {'text': 'should be familiar with this is the', 'start': 870.68, 'duration': 6.159
+    },
+    {'text': 'Future Okay on we go we have new another', 'start': 872.519, 'duration': 6.12
+    },
+    {'text': 'publication I would like to show you', 'start': 876.839, 'duration': 3.641
+    },
+    {'text': "let's make it a little bit bigger so we", 'start': 878.639, 'duration': 4.241
+    },
+    {'text': 'can both see it the department of', 'start': 880.48, 'duration': 4.039
+    },
+    {'text': 'statistical science the University', 'start': 882.88, 'duration': 5.639
+    },
+    {'text': 'College of London UK so here we go a', 'start': 884.519, 'duration': 6.24
+    },
+    {'text': 'general framework for constraint-based', 'start': 888.519, 'duration': 5.56
+    },
+    {'text': "causal learning and it's not this simple", 'start': 890.759, 'duration': 5.08
+    },
+    {'text': 'cause of learning that we know from', 'start': 894.079, 'duration': 4.56
+    },
+    {'text': 'chain of sword or tree of sword or our', 'start': 895.839, 'duration': 6.24
+    },
+    {'text': 'little childish attempts to use here the', 'start': 898.639, 'duration': 6.241
+    },
+    {'text': 'theory of causal interpretation and', 'start': 902.079, 'duration': 6.401
+    },
+    {'text': 'causal learning in AI now really we have', 'start': 904.88, 'duration': 6.16
+    },
+    {'text': 'here our experts that are sitting around', 'start': 908.48, 'duration': 4.56
+    },
+    {'text': 'the university and saying hey how can I', 'start': 911.04, 'duration': 4.84
+    },
+    {'text': 'contribute to the the development of EI', 'start': 913.04, 'duration': 6.239
+    },
+    {'text': '2.0 and now they bring their ideas in', 'start': 915.88, 'duration': 5.36
+    },
+    {'text': 'and we have to understand these ideas', 'start': 919.279, 'duration': 4.081
+    },
+    {'text': 'because sometimes we maybe have to work', 'start': 921.24, 'duration': 4.88
+    },
+    {'text': 'with these ideas and apply those ideas', 'start': 923.36, 'duration': 5.68
+    },
+    {'text': 'so we are here at causal Discovery and', 'start': 926.12, 'duration': 6.68
+    },
+    {'text': "graphical models so let's dive into a", 'start': 929.04, 'duration': 5.479
+    },
+    {'text': 'general framework for constraint based', 'start': 932.8, 'duration': 5.24
+    },
+    {'text': "causal learning and let's enter here the", 'start': 934.519, 'duration': 5.76
+    },
+    {'text': 'main goal of graph-based causal', 'start': 938.04, 'duration': 5.64
+    },
+    {'text': 'inference is causal Discovery given data', 'start': 940.279, 'duration': 5.56
+    },
+    {'text': 'we would like to uncover the underlying', 'start': 943.68, 'duration': 4.76
+    },
+    {'text': 'causal structure in the form of a true', 'start': 945.839, 'duration': 5.44
+    },
+    {'text': 'causal graph on which conveniently', 'start': 948.44, 'duration': 5.399
+    },
+    {'text': 'graph-based causal inference techniques', 'start': 951.279, 'duration': 4.641
+    },
+    {'text': 'hinge we will mostly be concerned with', 'start': 953.839, 'duration': 4.161
+    },
+    {'text': 'the setting of observational data such', 'start': 955.92, 'duration': 4.76
+    },
+    {'text': 'as when random control trials are', 'start': 958.0, 'duration': 5.959
+    },
+    {'text': 'unavailable the true graph yes in this', 'start': 960.68, 'duration': 5.279
+    },
+    {'text': 'work we will provide a framework which', 'start': 963.959, 'duration': 3.721
+    },
+    {'text': 'encompasses condition under which all', 'start': 965.959, 'duration': 3.12
+    },
+    {'text': 'constraint based causal learning', 'start': 967.68, 'duration': 4.2
+    },
+    {'text': 'algorithm work along with providing such', 'start': 969.079, 'duration': 4.521
+    },
+    {'text': 'condition given any', 'start': 971.88, 'duration': 4.399
+    },
+    {'text': 'algorithm from the framework we provide', 'start': 973.6, 'duration': 4.76
+    },
+    {'text': 'exact conditions for when the PC', 'start': 976.279, 'duration': 4.0
+    },
+    {'text': 'algorithms work and relate them to', 'start': 978.36, 'duration': 4.24
+    },
+    {'text': 'correctness condition of some other', 'start': 980.279, 'duration': 4.601
+    },
+    {'text': 'algorithms and we show that the sparest', 'start': 982.6, 'duration': 3.679
+    },
+    {'text': 'M of representation condition is the', 'start': 984.88, 'duration': 3.439
+    },
+    {'text': 'weakest correctness condition yeah so I', 'start': 986.279, 'duration': 4.321
+    },
+    {'text': 'have to start here what is a PC', 'start': 988.319, 'duration': 4.361
+    },
+    {'text': 'algorithm and no it does not stand for', 'start': 990.6, 'duration': 4.32
+    },
+    {'text': 'personal computer but it stands here for', 'start': 992.68, 'duration': 4.839
+    },
+    {'text': 'pet clog algorithm this is a popular', 'start': 994.92, 'duration': 4.52
+    },
+    {'text': 'constraint based method that constructs', 'start': 997.519, 'duration': 4.961
+    },
+    {'text': 'a causal graph by iteratively testing', 'start': 999.44, 'duration': 5.0
+    },
+    {'text': 'conditional independencies and removing', 'start': 1002.48, 'duration': 4.52
+    },
+    {'text': 'edges from a fully connected graph and', 'start': 1004.44, 'duration': 4.8
+    },
+    {'text': 'then we have the SGS algorithm', 'start': 1007.0, 'duration': 5.319
+    },
+    {'text': 'beautiful also tests to construct a', 'start': 1009.24, 'duration': 4.76
+    },
+    {'text': 'causal graph the working principle I', 'start': 1012.319, 'duration': 4.041
+    },
+    {'text': 'explained what is a true causal graph', 'start': 1014.0, 'duration': 4.12
+    },
+    {'text': 'graphical separation putting it all', 'start': 1016.36, 'duration': 4.839
+    },
+    {'text': 'together you see this is really how I', 'start': 1018.12, 'duration': 6.88
+    },
+    {'text': 'use EI to help me understand new stuff', 'start': 1021.199, 'duration': 6.6
+    },
+    {'text': "in my learning how you can use it don't", 'start': 1025.0, 'duration': 5.24
+    },
+    {'text': 'go with Jud gbt go with any system you', 'start': 1027.799, 'duration': 5.681
+    },
+    {'text': 'like but the nice thing with Jud gbt for', 'start': 1030.24, 'duration': 5.76
+    },
+    {'text': 'example is it has been trained on those', 'start': 1033.48, 'duration': 4.839
+    },
+    {'text': 'old statistical physical mathematical', 'start': 1036.0, 'duration': 4.76
+    },
+    {'text': 'data from all the books here that was', 'start': 1038.319, 'duration': 5.88
+    },
+    {'text': 'published and they simply have available', 'start': 1040.76, 'duration': 6.079
+    },
+    {'text': 'this this kind of knowledge that I need', 'start': 1044.199, 'duration': 5.241
+    },
+    {'text': 'to be able to follow here this', 'start': 1046.839, 'duration': 5.361
+    },
+    {'text': "introduction for graphical models I'll", 'start': 1049.44, 'duration': 4.72
+    },
+    {'text': 'denote a graph for a finite set of notes', 'start': 1052.2, 'duration': 4.359
+    },
+    {'text': 'we will consider three types of edges', 'start': 1054.16, 'duration': 5.28
+    },
+    {'text': 'directed undirected and bidirected edges', 'start': 1056.559, 'duration': 5.0
+    },
+    {'text': "the classical one there's the definition", 'start': 1059.44, 'duration': 5.92
+    },
+    {'text': 'what is a p Pi between the notes I is', 'start': 1061.559, 'duration': 5.36
+    },
+    {'text': 'the sequence of note that for all the', 'start': 1065.36, 'duration': 3.24
+    },
+    {'text': 'notes is yes yes', 'start': 1066.919, 'duration': 4.681
+    },
+    {'text': 'yes okay and graph is a set of notes', 'start': 1068.6, 'duration': 5.24
+    },
+    {'text': 'contain', 'start': 1071.6, 'duration': 5.04
+    },
+    {'text': 'yeah an anest well graph following the', 'start': 1073.84, 'duration': 4.68
+    },
+    {'text': 'Omission yes does not satisfy this', 'start': 1076.64, 'duration': 3.72
+    },
+    {'text': 'General setting for causal learning and', 'start': 1078.52, 'duration': 5.76
+    },
+    {'text': 'here we start now so let g0 be a true', 'start': 1080.36, 'duration': 6.16
+    },
+    {'text': 'causal graph which we wish to partially', 'start': 1084.28, 'duration': 4.759
+    },
+    {'text': 'recover from observation distribution P', 'start': 1086.52, 'duration': 5.039
+    },
+    {'text': 'which is induced from g0 the main goal', 'start': 1089.039, 'duration': 5.161
+    },
+    {'text': 'of caal learning is to use observational', 'start': 1091.559, 'duration': 4.24
+    },
+    {'text': 'data from the distribution P to the', 'start': 1094.2, 'duration': 5.44
+    },
+    {'text': 'recover graph that belongs to the Mec of', 'start': 1095.799, 'duration': 7.601
+    },
+    {'text': 'g0 you see this I do not understand just', 'start': 1099.64, 'duration': 6.72
+    },
+    {'text': 'by looking at it so I have to sit down', 'start': 1103.4, 'duration': 4.639
+    },
+    {'text': 'read the paper and this will take', 'start': 1106.36, 'duration': 3.96
+    },
+    {'text': 'minimum an hour maybe an afternoon', 'start': 1108.039, 'duration': 4.721
+    },
+    {'text': 'because I am not that intelligent but', 'start': 1110.32, 'duration': 5.56
+    },
+    {'text': 'never mind I will leave my bubble I will', 'start': 1112.76, 'duration': 6.159
+    },
+    {'text': 'try to learn something new and I think', 'start': 1115.88, 'duration': 5.72
+    },
+    {'text': 'just want to show you how I fail why I', 'start': 1118.919, 'duration': 5.441
+    },
+    {'text': 'fail the way I fail how I try to', 'start': 1121.6, 'duration': 5.079
+    },
+    {'text': 'compensate here for my nonn knowledge', 'start': 1124.36, 'duration': 5.48
+    },
+    {'text': 'that I have how I can learn new stuff', 'start': 1126.679, 'duration': 6.48
+    },
+    {'text': 'but you have to do better you have to', 'start': 1129.84, 'duration': 5.76
+    },
+    {'text': 'know about this about my failure and you', 'start': 1133.159, 'duration': 4.76
+    },
+    {'text': 'should learn from my mistake and this is', 'start': 1135.6, 'duration': 5.6
+    },
+    {'text': 'why I do this why I want to leave my', 'start': 1137.919, 'duration': 5.961
+    },
+    {'text': 'bubble and I got some comments hey it', 'start': 1141.2, 'duration': 4.8
+    },
+    {'text': 'seems that you are not really familiar', 'start': 1143.88, 'duration': 5.52
+    },
+    {'text': 'with some of the new AI publication that', 'start': 1146.0, 'duration': 7.2
+    },
+    {'text': 'you present absolutely I have not even a', 'start': 1149.4, 'duration': 6.6
+    },
+    {'text': 'minimum s what they are talking and why', 'start': 1153.2, 'duration': 4.76
+    },
+    {'text': 'they are talking about this but you know', 'start': 1156.0, 'duration': 4.32
+    },
+    {'text': 'it is so fascinating to learn something', 'start': 1157.96, 'duration': 5.0
+    },
+    {'text': 'new okay this was it for this', 'start': 1160.32, 'duration': 5.96
+    },
+    {'text': "one let's go here for yeah that's a", 'start': 1162.96, 'duration': 4.44
+    },
+    {'text': 'beautiful', 'start': 1166.28, 'duration': 4.84
+    },
+    {'text': 'one let me give', 'start': 1167.4, 'duration': 6.72
+    },
+    {'text': 'second linear traces no operation', 'start': 1171.12, 'duration': 6.0
+    },
+    {'text': 'research is coming up NP complete why', 'start': 1174.12, 'duration': 5.0
+    },
+    {'text': 'set is coming up here we go here we go', 'start': 1177.12, 'duration': 4.4
+    },
+    {'text': 'here we go here we', 'start': 1179.12, 'duration': 6.88
+    },
+    {'text': 'go what is on set programming so we are', 'start': 1181.52, 'duration': 7.039
+    },
+    {'text': 'here now with onet programming and we', 'start': 1186.0, 'duration': 4.679
+    },
+    {'text': 'are optimizing a dynamic traffic', 'start': 1188.559, 'duration': 4.921
+    },
+    {'text': 'distribution for urban networks', 'start': 1190.679, 'duration': 4.641
+    },
+    {'text': 'beautiful publication here University of', 'start': 1193.48, 'duration': 4.72
+    },
+    {'text': 'Genova Italy University of Calabria', 'start': 1195.32, 'duration': 4.92
+    },
+    {'text': 'University of Calabria University of', 'start': 1198.2, 'duration': 3.64
+    },
+    {'text': 'Huddersfield', 'start': 1200.24, 'duration': 4.36
+    },
+    {'text': "UK so let's have a word answer set", 'start': 1201.84, 'duration': 4.52
+    },
+    {'text': 'programming no idea what it is and', 'start': 1204.6, 'duration': 4.12
+    },
+    {'text': 'optimization problem okay and a traffic', 'start': 1206.36, 'duration': 4.76
+    },
+    {'text': 'distribution this is our real world', 'start': 1208.72, 'duration': 6.04
+    },
+    {'text': 'application so avoiding congestion and', 'start': 1211.12, 'duration': 5.6
+    },
+    {'text': 'controlling traffic in urban scenarios', 'start': 1214.76, 'duration': 4.64
+    },
+    {'text': 'is becoming nowadays of utmost important', 'start': 1216.72, 'duration': 4.24
+    },
+    {'text': "due to the rapid growth in our City's", 'start': 1219.4, 'duration': 3.44
+    },
+    {'text': 'population and the vehicle the effective', 'start': 1220.96, 'duration': 3.88
+    },
+    {'text': 'control of urban traffic as a means to', 'start': 1222.84, 'duration': 4.319
+    },
+    {'text': 'mitigate congestion can be beneficial in', 'start': 1224.84, 'duration': 4.16
+    },
+    {'text': 'economic environmental and health and', 'start': 1227.159, 'duration': 5.721
+    },
+    {'text': 'yes yes yes so how we do this in this', 'start': 1229.0, 'duration': 5.919
+    },
+    {'text': 'paper we present an application in which', 'start': 1232.88, 'duration': 4.52
+    },
+    {'text': 'also said programming has been', 'start': 1234.919, 'duration': 4.401
+    },
+    {'text': 'successfully used in the context of', 'start': 1237.4, 'duration': 4.44
+    },
+    {'text': 'dynamic traffic distribution for urban', 'start': 1239.32, 'duration': 4.719
+    },
+    {'text': 'networks within a more General framework', 'start': 1241.84, 'duration': 4.56
+    },
+    {'text': 'devised for solving such a real world', 'start': 1244.039, 'duration': 5.161
+    },
+    {'text': 'problem within the framework ASP is', 'start': 1246.4, 'duration': 4.72
+    },
+    {'text': 'employed for representing and reasoning', 'start': 1249.2, 'duration': 3.68
+    },
+    {'text': 'about the optimization of the flow of', 'start': 1251.12, 'duration': 4.28
+    },
+    {'text': 'the traffic inside the road Network by', 'start': 1252.88, 'duration': 4.4
+    },
+    {'text': 'finding the best combination of routs', 'start': 1255.4, 'duration': 5.2
+    },
+    {'text': 'for all vehicles and the network', 'start': 1257.28, 'duration': 3.32
+    },
+    {'text': 'beautiful background onet programming', 'start': 1260.72, 'duration': 4.56
+    },
+    {'text': 'yes yes yes you get here the beautiful', 'start': 1263.32, 'duration': 4.92
+    },
+    {'text': 'definition or I just went here to Jet', 'start': 1265.28, 'duration': 6.68
+    },
+    {'text': "GPT and I said hey I don't know what is", 'start': 1268.24, 'duration': 6.559
+    },
+    {'text': 'ASP onet programming a form of', 'start': 1271.96, 'duration': 4.839
+    },
+    {'text': 'declarative programming that is used to', 'start': 1274.799, 'duration': 4.201
+    },
+    {'text': 'solve difficult primly NP hard', 'start': 1276.799, 'duration': 5.24
+    },
+    {'text': 'combinatorial search problems based on', 'start': 1279.0, 'duration': 5.159
+    },
+    {'text': 'the logic programming Paradigm and is', 'start': 1282.039, 'duration': 4.361
+    },
+    {'text': 'closely related to non-monotonic', 'start': 1284.159, 'duration': 4.921
+    },
+    {'text': 'reasoning where the truth value of', 'start': 1286.4, 'duration': 4.92
+    },
+    {'text': 'statement can change based on the', 'start': 1289.08, 'duration': 3.88
+    },
+    {'text': 'introduction of new', 'start': 1291.32, 'duration': 4.92
+    },
+    {'text': 'information and you might say hey', 'start': 1292.96, 'duration': 5.52
+    },
+    {'text': 'great yeah that this is what I have to', 'start': 1296.24, 'duration': 4.799
+    },
+    {'text': 'learn yeah another afternoon but yeah', 'start': 1298.48, 'duration': 5.36
+    },
+    {'text': 'enjoy it come on answer set is', 'start': 1301.039, 'duration': 5.0
+    },
+    {'text': 'essentially a set of literals of atoms', 'start': 1303.84, 'duration': 3.6
+    },
+    {'text': 'that represent the possible solution', 'start': 1306.039, 'duration': 2.64
+    },
+    {'text': 'setting finding all the rule and', 'start': 1307.44, 'duration': 3.4
+    },
+    {'text': 'constraints of the program particular', 'start': 1308.679, 'duration': 3.88
+    },
+    {'text': 'well Ed for problem where the goal is to', 'start': 1310.84, 'duration': 5.4
+    },
+    {'text': 'find all possible solution such is as in', 'start': 1312.559, 'duration': 5.521
+    },
+    {'text': 'configuration problems in scheduling', 'start': 1316.24, 'duration': 5.039
+    },
+    {'text': 'planning and more basic components atoms', 'start': 1318.08, 'duration': 5.28
+    },
+    {'text': 'the basic building blocks representing', 'start': 1321.279, 'duration': 4.76
+    },
+    {'text': 'basic facts or proposition the literals', 'start': 1323.36, 'duration': 5.439
+    },
+    {'text': 'atoms or negation rules logical', 'start': 1326.039, 'duration': 4.88
+    },
+    {'text': 'statement constraints restrict possible', 'start': 1328.799, 'duration': 4.161
+    },
+    {'text': 'answer set by specific condition that', 'start': 1330.919, 'duration': 5.36
+    },
+    {'text': 'must not be true answer set code and I', 'start': 1332.96, 'duration': 5.36
+    },
+    {'text': 'said here give me just an example and', 'start': 1336.279, 'duration': 4.441
+    },
+    {'text': 'gives me an example writes here a short', 'start': 1338.32, 'duration': 4.92
+    },
+    {'text': 'ASP program explains here the code', 'start': 1340.72, 'duration': 4.52
+    },
+    {'text': 'running the code expected output of the', 'start': 1343.24, 'duration': 5.72
+    },
+    {'text': 'code so nice to have here this available', 'start': 1345.24, 'duration': 5.96
+    },
+    {'text': 'powerful tool for solving complex commor', 'start': 1348.96, 'duration': 4.28
+    },
+    {'text': 'Problems by encoding them as a logic', 'start': 1351.2, 'duration': 4.959
+    },
+    {'text': 'program ASP program defines the problems', 'start': 1353.24, 'duration': 5.0
+    },
+    {'text': 'in terms of rules and constraints on the', 'start': 1356.159, 'duration': 5.241
+    },
+    {'text': 'ASP solver yep yep yep generates all', 'start': 1358.24, 'duration': 5.799
+    },
+    {'text': 'possible solution that satisfy this', 'start': 1361.4, 'duration': 6.24
+    },
+    {'text': 'condition okay so very nice you see', 'start': 1364.039, 'duration': 6.801
+    },
+    {'text': 'where EI is going for and in my other', 'start': 1367.64, 'duration': 5.8
+    },
+    {'text': 'days here I showed you for urban', 'start': 1370.84, 'duration': 5.04
+    },
+    {'text': 'trafficking routing uh optimization', 'start': 1373.44, 'duration': 4.359
+    },
+    {'text': 'problems the simple optimization', 'start': 1375.88, 'duration': 5.2
+    },
+    {'text': 'problems but you see now more and more', 'start': 1377.799, 'duration': 5.921
+    },
+    {'text': 'we are moving here to a little bit more', 'start': 1381.08, 'duration': 5.64
+    },
+    {'text': 'advanced application of mathematical', 'start': 1383.72, 'duration': 4.52
+    },
+    {'text': 'statistical', 'start': 1386.72, 'duration': 5.24
+    },
+    {'text': 'physical modeling that is not as simple', 'start': 1388.24, 'duration': 5.88
+    },
+    {'text': 'to understand at least not for me', 'start': 1391.96, 'duration': 6.199
+    },
+    {'text': "because I'm a little bit stupid on we go", 'start': 1394.12, 'duration': 7.28
+    },
+    {'text': 'now we go to probabilistic answer set', 'start': 1398.159, 'duration': 6.161
+    },
+    {'text': 'programs via a residual program and here', 'start': 1401.4, 'duration': 4.36
+    },
+    {'text': "they're looking here Department of", 'start': 1404.32, 'duration': 3.32
+    },
+    {'text': 'Environmental and preventive Sciences', 'start': 1405.76, 'duration': 3.48
+    },
+    {'text': "let's make it a little bit bigger so we", 'start': 1407.64, 'duration': 5.399
+    },
+    {'text': 'all can see it beautiful Italy seems', 'start': 1409.24, 'duration': 6.039
+    },
+    {'text': 'that Italy is very interested here in', 'start': 1413.039, 'duration': 4.0
+    },
+    {'text': 'the traffic', 'start': 1415.279, 'duration': 3.801
+    },
+    {'text': 'optimization they say hey we want to', 'start': 1417.039, 'duration': 3.961
+    },
+    {'text': 'compute the probability of a query from', 'start': 1419.08, 'duration': 4.44
+    },
+    {'text': 'a probabilistic answer set program some', 'start': 1421.0, 'duration': 4.48
+    },
+    {'text': 'parts of the program may not influence', 'start': 1423.52, 'duration': 3.399
+    },
+    {'text': 'the probability of a query but the', 'start': 1425.48, 'duration': 3.12
+    },
+    {'text': 'impact on the size of the', 'start': 1426.919, 'duration': 3.441
+    },
+    {'text': 'grounding', 'start': 1428.6, 'duration': 4.16
+    },
+    {'text': 'okay paper has been accepted at a', 'start': 1430.36, 'duration': 3.88
+    },
+    {'text': 'conference on the consideration in', 'start': 1432.76, 'duration': 3.96
+    },
+    {'text': 'theory and practice of logic programming', 'start': 1434.24, 'duration': 5.08
+    },
+    {'text': 'hey hey hey statistic IAL relational', 'start': 1436.72, 'duration': 6.16
+    },
+    {'text': 'artificial intelligence inference and', 'start': 1439.32, 'duration': 5.599
+    },
+    {'text': 'tabling statistical relational', 'start': 1442.88, 'duration': 4.0
+    },
+    {'text': 'artificial intelligence is a subfield of', 'start': 1444.919, 'duration': 3.36
+    },
+    {'text': 'artificial intelligence aiming at', 'start': 1446.88, 'duration': 3.84
+    },
+    {'text': 'presenting uncertain domains with', 'start': 1448.279, 'duration': 5.201
+    },
+    {'text': 'interpretable languages one of these', 'start': 1450.72, 'duration': 5.04
+    },
+    {'text': 'languages is probabilistic onet', 'start': 1453.48, 'duration': 6.36
+    },
+    {'text': 'programming passp under the credle', 'start': 1455.76, 'duration': 6.72
+    },
+    {'text': 'semantics onet programming in the use of', 'start': 1459.84, 'duration': 6.48
+    },
+    {'text': 'the Eon yeah in fact yes inter specific', 'start': 1462.48, 'duration': 7.28
+    },
+    {'text': 'case yes beautiful', 'start': 1466.32, 'duration': 5.2
+    },
+    {'text': 'possibility of returning the residual', 'start': 1469.76, 'duration': 3.039
+    },
+    {'text': 'program which can then be used to', 'start': 1471.52, 'duration': 3.159
+    },
+    {'text': 'computer answer of the program this', 'start': 1472.799, 'duration': 4.88
+    },
+    {'text': 'looks interesting you see I have no idea', 'start': 1474.679, 'duration': 4.681
+    },
+    {'text': 'just reading this I have to sit down in', 'start': 1477.679, 'duration': 4.961
+    },
+    {'text': 'the afternoon and just go step by step', 'start': 1479.36, 'duration': 5.64
+    },
+    {'text': 'background we consider normal logic', 'start': 1482.64, 'duration': 5.039
+    },
+    {'text': "programs God I'm so happy that they", 'start': 1485.0, 'duration': 4.88
+    },
+    {'text': 'start here with the basic', 'start': 1487.679, 'duration': 7.12
+    },
+    {'text': 'here stable model semantics', 'start': 1489.88, 'duration': 9.399
+    },
+    {'text': '1988 my goodness I have such missing', 'start': 1494.799, 'duration': 7.561
+    },
+    {'text': 'parts in my knowledge okay following', 'start': 1499.279, 'duration': 6.961
+    },
+    {'text': 'rules well-founded semantics', 'start': 1502.36, 'duration': 8.84
+    },
+    {'text': '1999 91 assign a fre model my goodness', 'start': 1506.24, 'duration': 7.52
+    },
+    {'text': "okay I think you get the idea and I'm", 'start': 1511.2, 'duration': 7.32
+    },
+    {'text': "looking to another I've but on we go and", 'start': 1513.76, 'duration': 7.159
+    },
+    {'text': "currently I don't know why but answer", 'start': 1518.52, 'duration': 5.56
+    },
+    {'text': 'said programming today looking at August', 'start': 1520.919, 'duration': 6.041
+    },
+    {'text': '14 2024 is really a Hot Topic this is', 'start': 1524.08, 'duration': 5.24
+    },
+    {'text': 'the third publication that that I found', 'start': 1526.96, 'duration': 5.319
+    },
+    {'text': 'and I specifically selected to show you', 'start': 1529.32, 'duration': 6.52
+    },
+    {'text': 'what I do not know where I have', 'start': 1532.279, 'duration': 6.561
+    },
+    {'text': 'here real problems understanding here', 'start': 1535.84, 'duration': 4.959
+    },
+    {'text': 'from my AI', 'start': 1538.84, 'duration': 4.76
+    },
+    {'text': 'knowledge Nagoya University Japan', 'start': 1540.799, 'duration': 5.24
+    },
+    {'text': 'University poam in Dand Kuba University', 'start': 1543.6, 'duration': 5.24
+    },
+    {'text': 'Japan Nagoya University', 'start': 1546.039, 'duration': 6.841
+    },
+    {'text': 'Japan okay where are we combinatorial', 'start': 1548.84, 'duration': 6.079
+    },
+    {'text': 'reconfiguration is a relative young', 'start': 1552.88, 'duration': 3.799
+    },
+    {'text': 'research field of increasing interest in', 'start': 1554.919, 'duration': 4.24
+    },
+    {'text': 'an International Community the aim of', 'start': 1556.679, 'duration': 4.0
+    },
+    {'text': 'combinatorial configuration is to', 'start': 1559.159, 'duration': 3.0
+    },
+    {'text': 'analyze the structure and property of', 'start': 1560.679, 'duration': 4.921
+    },
+    {'text': 'the solution spaces of combinatorial', 'start': 1562.159, 'duration': 6.841
+    },
+    {'text': 'problems nice so this topical this', 'start': 1565.6, 'duration': 6.0
+    },
+    {'text': 'typical topics of the field include', 'start': 1569.0, 'duration': 4.76
+    },
+    {'text': 'reachability optim ability diameter and', 'start': 1571.6, 'duration': 4.679
+    },
+    {'text': 'connectivity of the solution space each', 'start': 1573.76, 'duration': 4.84
+    },
+    {'text': 'solution space has a graph structure in', 'start': 1576.279, 'duration': 5.041
+    },
+    {'text': 'which each node represent an individual', 'start': 1578.6, 'duration': 4.88
+    },
+    {'text': 'feasible solution and the edges', 'start': 1581.32, 'duration': 6.959
+    },
+    {'text': 'represent a certain adjacent relation', 'start': 1583.48, 'duration': 4.799
+    },
+    {'text': 'it sounds absolutely fascinating I do', 'start': 1588.48, 'duration': 5.52
+    },
+    {'text': 'not understand anything about this this', 'start': 1591.08, 'duration': 5.839
+    },
+    {'text': 'is not in my knowledge tool boox so I', 'start': 1594.0, 'duration': 5.84
+    },
+    {'text': 'have to learn', 'start': 1596.919, 'duration': 2.921
+    },
+    {'text': 'this', 'start': 1601.6, 'duration': 4.64
+    },
+    {'text': 'okay okay', 'start': 1603.32, 'duration': 7.0
+    },
+    {'text': 'let let me show you that I have more', 'start': 1606.24, 'duration': 6.96
+    },
+    {'text': 'problems in knowing anything about and', 'start': 1610.32, 'duration': 5.32
+    },
+    {'text': 'now we go some some beautiful we have', 'start': 1613.2, 'duration': 5.8
+    },
+    {'text': 'here that we all know agent in EI', 'start': 1615.64, 'duration': 5.68
+    },
+    {'text': 'beautiful so Advanced reasoning and', 'start': 1619.0, 'duration': 5.679
+    },
+    {'text': 'learning for autonomous e and this is', 'start': 1621.32, 'duration': 5.719
+    },
+    {'text': "what we are going for we don't want our", 'start': 1624.679, 'duration': 4.801
+    },
+    {'text': 'stupid agent where recode this or where', 'start': 1627.039, 'duration': 5.721
+    },
+    {'text': 'they have some list of Lang chains we', 'start': 1629.48, 'duration': 5.84
+    },
+    {'text': 'want to have fully autonomous self-', 'start': 1632.76, 'duration': 4.12
+    },
+    {'text': 'deciding', 'start': 1635.32, 'duration': 5.599
+    },
+    {'text': 'agents the AGI comp AGI company wow and', 'start': 1636.88, 'duration': 6.48
+    },
+    {'text': 'Stanford University okay now I know why', 'start': 1640.919, 'duration': 5.88
+    },
+    {'text': 'I selected this paper for you today well', 'start': 1643.36, 'duration': 6.16
+    },
+    {'text': "we were're here with propose a framework", 'start': 1646.799, 'duration': 4.961
+    },
+    {'text': 'that combines guided Monte Carlo', 'start': 1649.52, 'duration': 4.84
+    },
+    {'text': 'research very old one with a', 'start': 1651.76, 'duration': 5.24
+    },
+    {'text': 'self-critique mechanism we know this', 'start': 1654.36, 'duration': 4.96
+    },
+    {'text': 'systems that critique itself and', 'start': 1657.0, 'duration': 4.679
+    },
+    {'text': 'iterative fine-tuning on the agent', 'start': 1659.32, 'duration': 4.68
+    },
+    {'text': 'interaction using an off policy variant', 'start': 1661.679, 'duration': 5.88
+    },
+    {'text': 'of the DPO algorithm I have videos on', 'start': 1664.0, 'duration': 6.6
+    },
+    {'text': 'both so we are familiar with this our', 'start': 1667.559, 'duration': 5.161
+    },
+    {'text': 'method allows llm agents to learn', 'start': 1670.6, 'duration': 5.4
+    },
+    {'text': 'effectively from both successful and', 'start': 1672.72, 'duration': 6.12
+    },
+    {'text': 'unsuccessful trajectories by improving', 'start': 1676.0, 'duration': 5.039
+    },
+    {'text': 'their generalization in complex', 'start': 1678.84, 'duration': 5.319
+    },
+    {'text': 'multi-step reasoning task hey finally', 'start': 1681.039, 'duration': 6.081
+    },
+    {'text': 'multi-step reasoning we validate our', 'start': 1684.159, 'duration': 5.201
+    },
+    {'text': 'approach and beautiful', 'start': 1687.12, 'duration': 6.72
+    },
+    {'text': "beautiful okay what's a 340% relative", 'start': 1689.36, 'duration': 8.039
+    },
+    {'text': 'increase hey that sounds interesting so', 'start': 1693.84, 'duration': 5.88
+    },
+    {'text': 'this is just to relax this is something', 'start': 1697.399, 'duration': 4.841
+    },
+    {'text': 'that we know this is something beautiful', 'start': 1699.72, 'duration': 5.48
+    },
+    {'text': "it doesn't seem to be too complicated", 'start': 1702.24, 'duration': 4.6
+    },
+    {'text': 'because we have simply here monol', 'start': 1705.2, 'duration': 3.4
+    },
+    {'text': 'research on a DPO algorithm that we', 'start': 1706.84, 'duration': 4.559
+    },
+    {'text': 'optimize together so just relax this was', 'start': 1708.6, 'duration': 6.959
+    },
+    {'text': 'a little break now we are back to three', 'start': 1711.399, 'duration': 7.88
+    },
+    {'text': 'set now in Europe This is a TV channel', 'start': 1715.559, 'duration': 6.36
+    },
+    {'text': 'but no we are not talking about', 'start': 1719.279, 'duration': 4.961
+    },
+    {'text': 'simplicities we are talking here no the', 'start': 1721.919, 'duration': 3.961
+    },
+    {'text': 'researcher here from the center of', 'start': 1724.24, 'duration': 3.72
+    },
+    {'text': 'Applied autonomous sensor', 'start': 1725.88, 'duration': 5.36
+    },
+    {'text': 'system uh Ur University in Sweden and', 'start': 1727.96, 'duration': 5.559
+    },
+    {'text': 'the department of computer science at at', 'start': 1731.24, 'duration': 5.799
+    },
+    {'text': 'louan in Belgium they talk here', 'start': 1733.519, 'duration': 6.52
+    },
+    {'text': 'about reasoning and computational', 'start': 1737.039, 'duration': 4.681
+    },
+    {'text': 'complexity', 'start': 1740.039, 'duration': 6.721
+    },
+    {'text': 'Theory now I do not know what is sad so', 'start': 1741.72, 'duration': 8.0
+    },
+    {'text': 'luckily CH TBT knows all about it as I', 'start': 1746.76, 'duration': 4.639
+    },
+    {'text': 'explained this and I said here this is', 'start': 1749.72, 'duration': 4.04
+    },
+    {'text': 'the prototypical NP complete problem', 'start': 1751.399, 'duration': 3.681
+    },
+    {'text': 'that lies at the core of logical', 'start': 1753.76, 'duration': 2.88
+    },
+    {'text': 'reasoning and constraint satisfactory', 'start': 1755.08, 'duration': 4.8
+    },
+    {'text': 'task three sat short for three', 'start': 1756.64, 'duration': 5.48
+    },
+    {'text': 'satisfiability is a specific type of', 'start': 1759.88, 'duration': 4.96
+    },
+    {'text': 'pool satisfiability problem which is', 'start': 1762.12, 'duration': 5.32
+    },
+    {'text': 'Central in theoretical computer science', 'start': 1764.84, 'duration': 5.0
+    },
+    {'text': 'so if you study computer science you say', 'start': 1767.44, 'duration': 4.2
+    },
+    {'text': "hey that's easy I know this from", 'start': 1769.84, 'duration': 3.839
+    },
+    {'text': 'University congratulation I have to', 'start': 1771.64, 'duration': 5.36
+    },
+    {'text': 'learn this satisfiable problem General', 'start': 1773.679, 'duration': 5.521
+    },
+    {'text': 'set problem ask whether there exists an', 'start': 1777.0, 'duration': 4.88
+    },
+    {'text': 'assignment of True Value true or false', 'start': 1779.2, 'duration': 4.959
+    },
+    {'text': 'to variables in a Bo formula such that', 'start': 1781.88, 'duration': 5.76
+    },
+    {'text': 'the entire formula evaluates to true the', 'start': 1784.159, 'duration': 6.201
+    },
+    {'text': 'B formula is expressed in a conjugative', 'start': 1787.64, 'duration': 4.68
+    },
+    {'text': 'normal form where the formula is a', 'start': 1790.36, 'duration': 4.88
+    },
+    {'text': 'conjunction of several Clauses and each', 'start': 1792.32, 'duration': 5.959
+    },
+    {'text': 'Clause is a disjunction of exactly three', 'start': 1795.24, 'duration': 5.679
+    },
+    {'text': 'literals a literal is either variable or', 'start': 1798.279, 'duration': 3.681
+    },
+    {'text': "it's", 'start': 1800.919, 'duration': 4.161
+    },
+    {'text': 'negation an example of a Tre set formula', 'start': 1801.96, 'duration': 5.12
+    },
+    {'text': 'is this one here', 'start': 1805.08, 'duration': 4.599
+    },
+    {'text': 'beautiful H task is to determine whether', 'start': 1807.08, 'duration': 5.04
+    },
+    {'text': "there's a way to assign true or false to", 'start': 1809.679, 'duration': 5.761
+    },
+    {'text': 'each variable from X1 to X4 such that', 'start': 1812.12, 'duration': 6.52
+    },
+    {'text': 'the entire formula is true this is', 'start': 1815.44, 'duration': 4.359
+    },
+    {'text': 'beautiful this is a kind of an', 'start': 1818.64, 'duration': 3.44
+    },
+    {'text': "optimization problem that I like it's an", 'start': 1819.799, 'duration': 6.88
+    },
+    {'text': 'NP complete problem', 'start': 1822.08, 'duration': 7.68
+    },
+    {'text': 'nice so MP complete problems are the', 'start': 1826.679, 'duration': 5.48
+    },
+    {'text': 'hardest problems in mp meaning that you', 'start': 1829.76, 'duration': 5.279
+    },
+    {'text': 'can if you can solve an MP complete', 'start': 1832.159, 'duration': 5.321
+    },
+    {'text': 'problem in polinomial time you can solve', 'start': 1835.039, 'duration': 6.721
+    },
+    {'text': 'all NP problems in polinomial', 'start': 1837.48, 'duration': 4.28
+    },
+    {'text': 'time very f a given solution for reset', 'start': 1842.6, 'duration': 4.88
+    },
+    {'text': 'can be done in polinomial time as hard', 'start': 1845.559, 'duration': 4.12
+    },
+    {'text': 'as yes prod problem', 'start': 1847.48, 'duration': 5.84
+    },
+    {'text': 'is yes yes yes core of logical reasoning', 'start': 1849.679, 'duration': 5.801
+    },
+    {'text': 'and constraint satisfaction three side', 'start': 1853.32, 'duration': 4.12
+    },
+    {'text': 'lies at the heart of two important areas', 'start': 1855.48, 'duration': 3.96
+    },
+    {'text': 'logical reasoning this is exactly what', 'start': 1857.44, 'duration': 5.16
+    },
+    {'text': "we are looking here can lm's model", 'start': 1859.44, 'duration': 5.16
+    },
+    {'text': 'reason but now in a little bit more', 'start': 1862.6, 'duration': 3.799
+    },
+    {'text': 'advanced mathematical', 'start': 1864.6, 'duration': 4.24
+    },
+    {'text': 'formulation res that encapsulate core', 'start': 1866.399, 'duration': 4.76
+    },
+    {'text': 'aspects of logical deduction where we', 'start': 1868.84, 'duration': 4.04
+    },
+    {'text': 'need to find a consistent truth', 'start': 1871.159, 'duration': 3.4
+    },
+    {'text': 'assignment that satisfies all given', 'start': 1872.88, 'duration': 4.88
+    },
+    {'text': 'logical constraint or logical Clauses in', 'start': 1874.559, 'duration': 5.12
+    },
+    {'text': 'a broader sense many problems in Ai and', 'start': 1877.76, 'duration': 3.84
+    },
+    {'text': 'computer science involve finding', 'start': 1879.679, 'duration': 3.401
+    },
+    {'text': 'solution that satisfy a set of', 'start': 1881.6, 'duration': 4.039
+    },
+    {'text': 'constraints absolutely so sad is a', 'start': 1883.08, 'duration': 4.24
+    },
+    {'text': 'quintessential example of such a', 'start': 1885.639, 'duration': 4.52
+    },
+    {'text': 'constraint satisfaction', 'start': 1887.32, 'duration': 5.839
+    },
+    {'text': 'problem wow', 'start': 1890.159, 'duration': 5.841
+    },
+    {'text': 'okay three side is deeply connected to', 'start': 1893.159, 'duration': 4.561
+    },
+    {'text': 'logical reasoning and a broader class of', 'start': 1896.0, 'duration': 3.679
+    },
+    {'text': 'constraint satisfaction problems making', 'start': 1897.72, 'duration': 3.439
+    },
+    {'text': 'it a Cornerstone in understanding', 'start': 1899.679, 'duration': 3.921
+    },
+    {'text': 'computational complexity and algorithm', 'start': 1901.159, 'duration': 6.441
+    },
+    {'text': 'design now you say hey this sounds great', 'start': 1903.6, 'duration': 7.88
+    },
+    {'text': 'so we use now this kind of insight to', 'start': 1907.6, 'duration': 6.4
+    },
+    {'text': 'answer the question can llms model', 'start': 1911.48, 'duration': 5.919
+    },
+    {'text': 'reason and we do not just fine-tune any', 'start': 1914.0, 'duration': 4.48
+    },
+    {'text': 'llm', 'start': 1917.399, 'duration': 3.481
+    },
+    {'text': 'and have a look at it no we are now a', 'start': 1918.48, 'duration': 4.6
+    },
+    {'text': 'little bit more deeper into the', 'start': 1920.88, 'duration': 3.799
+    },
+    {'text': 'mathematics into computational', 'start': 1923.08, 'duration': 4.199
+    },
+    {'text': 'complexity Theory and I hope you know', 'start': 1924.679, 'duration': 6.081
+    },
+    {'text': 'more about this than I do because I have', 'start': 1927.279, 'duration': 8.12
+    },
+    {'text': "to learn this yes I know it's a", 'start': 1930.76, 'duration': 7.519
+    },
+    {'text': 'disaster s said face transition now this', 'start': 1935.399, 'duration': 4.88
+    },
+    {'text': 'is theoretical physics and I say hey I', 'start': 1938.279, 'duration': 4.801
+    },
+    {'text': 'know about pH transition so this should', 'start': 1940.279, 'duration': 5.76
+    },
+    {'text': 'be approachable to', 'start': 1943.08, 'duration': 5.4
+    },
+    {'text': 'me oh wow', 'start': 1946.039, 'duration': 5.561
+    },
+    {'text': 'okay congratulations I won I have a', 'start': 1948.48, 'duration': 4.319
+    },
+    {'text': "feeling it's a little bit different the", 'start': 1951.6, 'duration': 5.16
+    },
+    {'text': 'statement but okay we have solvers', 'start': 1952.799, 'duration': 7.401
+    },
+    {'text': 'nice can llm solve yes you have to look', 'start': 1956.76, 'duration': 5.0
+    },
+    {'text': 'at this publication by this research', 'start': 1960.2, 'duration': 3.4
+    },
+    {'text': "team I'm not going to tell you what is", 'start': 1961.76, 'duration': 3.56
+    },
+    {'text': 'the answer I want to make it a little', 'start': 1963.6, 'duration': 3.919
+    },
+    {'text': 'bit more interesting for you if you', 'start': 1965.32, 'duration': 4.52
+    },
+    {'text': 'watch this here', 'start': 1967.519, 'duration': 6.561
+    },
+    {'text': "so let's go now for operation research", 'start': 1969.84, 'duration': 7.24
+    },
+    {'text': 'for complex operations research using', 'start': 1974.08, 'duration': 6.24
+    },
+    {'text': 'here our natural language inputs and I', 'start': 1977.08, 'duration': 6.8
+    },
+    {'text': 'have this right here and I ask you J gbt', 'start': 1980.32, 'duration': 6.04
+    },
+    {'text': 'explain the term operation research in', 'start': 1983.88, 'duration': 6.32
+    },
+    {'text': 'this sentence operation research or uses', 'start': 1986.36, 'duration': 6.4
+    },
+    {'text': 'mathematical models to enhance decision', 'start': 1990.2, 'duration': 5.56
+    },
+    {'text': 'making so you say ah we are now we are', 'start': 1992.76, 'duration': 4.96
+    },
+    {'text': 'going now from', 'start': 1995.76, 'duration': 4.48
+    },
+    {'text': 'explainability we are going now to', 'start': 1997.72, 'duration': 6.48
+    },
+    {'text': 'enhance decision making by our AI system', 'start': 2000.24, 'duration': 6.08
+    },
+    {'text': 'and we have here Microsoft and the', 'start': 2004.2, 'duration': 5.88
+    },
+    {'text': 'University of Memphis in', 'start': 2006.32, 'duration': 6.88
+    },
+    {'text': 'Tennessee operation research automated', 'start': 2010.08, 'duration': 6.92
+    },
+    {'text': 'mathematical programming llms sounds', 'start': 2013.2, 'duration': 6.4
+    },
+    {'text': 'fascinating operation research uses', 'start': 2017.0, 'duration': 4.279
+    },
+    {'text': 'mathematical models to enhance', 'start': 2019.6, 'duration': 3.52
+    },
+    {'text': 'decisionmaking but developing this model', 'start': 2021.279, 'duration': 3.801
+    },
+    {'text': 'required expert knowledge and can be', 'start': 2023.12, 'duration': 4.88
+    },
+    {'text': 'time consuming automated mathematical', 'start': 2025.08, 'duration': 5.559
+    },
+    {'text': 'programming has emerged to simplify this', 'start': 2028.0, 'duration': 5.399
+    },
+    {'text': 'process nice but existing systems have', 'start': 2030.639, 'duration': 5.0
+    },
+    {'text': 'limitation like my brain so this paper', 'start': 2033.399, 'duration': 5.081
+    },
+    {'text': 'introduces a novel methodology that uses', 'start': 2035.639, 'duration': 5.321
+    },
+    {'text': 'recent advances in llms to create an', 'start': 2038.48, 'duration': 5.96
+    },
+    {'text': 'edit operation research solution from', 'start': 2040.96, 'duration': 7.32
+    },
+    {'text': 'nonexpert user queries Express expressed', 'start': 2044.44, 'duration': 7.719
+    },
+    {'text': 'using natural language hey I think I', 'start': 2048.28, 'duration': 6.079
+    },
+    {'text': 'should be able to understand this paper', 'start': 2052.159, 'duration': 5.0
+    },
+    {'text': 'and I hope that you get it immediately', 'start': 2054.359, 'duration': 5.601
+    },
+    {'text': 'just looking at it I have to study', 'start': 2057.159, 'duration': 5.52
+    },
+    {'text': 'it operation research as a field has', 'start': 2059.96, 'duration': 4.8
+    },
+    {'text': 'been widely used to enhance decision', 'start': 2062.679, 'duration': 3.48
+    },
+    {'text': 'making by creating and using', 'start': 2064.76, 'duration': 3.119
+    },
+    {'text': 'mathematical models of real world', 'start': 2066.159, 'duration': 4.801
+    },
+    {'text': 'situation to find', 'start': 2067.879, 'duration': 3.081
+    },
+    {'text': 'solution', 'start': 2071.079, 'duration': 3.0
+    },
+    {'text': 'okay sounds', 'start': 2075.48, 'duration': 5.04
+    },
+    {'text': 'interesting we are the first to handle', 'start': 2078.119, 'duration': 5.04
+    },
+    {'text': 'abstract or model creation and editing', 'start': 2080.52, 'duration': 6.2
+    },
+    {'text': 'okay automatic Sol triage sounds', 'start': 2083.159, 'duration': 5.72
+    },
+    {'text': 'absolutely fascinating', 'start': 2086.72, 'duration': 7.04
+    },
+    {'text': 'okay yeah I said hey why be so simple', 'start': 2088.879, 'duration': 8.2
+    },
+    {'text': 'today because some reply by my audience', 'start': 2093.76, 'duration': 6.56
+    },
+    {'text': 'was hey you only show us the simply ey', 'start': 2097.079, 'duration': 5.441
+    },
+    {'text': 'papers are there not some papers that', 'start': 2100.32, 'duration': 3.72
+    },
+    {'text': 'are a little bit more', 'start': 2102.52, 'duration': 4.64
+    },
+    {'text': "challenging I'm so glad you ask you know", 'start': 2104.04, 'duration': 5.24
+    },
+    {'text': 'because I think I have some other paper', 'start': 2107.16, 'duration': 5.16
+    },
+    {'text': 'for you here we go I found it I found it', 'start': 2109.28, 'duration': 7.48
+    },
+    {'text': 'yes linear temporal logic over finite', 'start': 2112.32, 'duration': 8.039
+    },
+    {'text': 'traces here we have a paper China China', 'start': 2116.76, 'duration': 6.8
+    },
+    {'text': 'Oxford Singapore China China China and', 'start': 2120.359, 'duration': 5.401
+    },
+    {'text': 'Rice University so we have here', 'start': 2123.56, 'duration': 4.76
+    },
+    {'text': 'publication software and engineering', 'start': 2125.76, 'duration': 5.599
+    },
+    {'text': 'formal methods theory of computation', 'start': 2128.32, 'duration': 7.12
+    },
+    {'text': 'automated reasoning modal and temporal', 'start': 2131.359, 'duration': 6.881
+    },
+    {'text': 'logic and you might say that sounds', 'start': 2135.44, 'duration': 5.399
+    },
+    {'text': 'fascinating so here we go on the Fly', 'start': 2138.24, 'duration': 6.879
+    },
+    {'text': 'synthesis for LTL over finite traces an', 'start': 2140.839, 'duration': 7.24
+    },
+    {'text': 'efficient approach that counts and I do', 'start': 2145.119, 'duration': 5.48
+    },
+    {'text': 'not know what is LTL and why we operate', 'start': 2148.079, 'duration': 6.721
+    },
+    {'text': "over finite traces so let's go and have", 'start': 2150.599, 'duration': 5.48
+    },
+    {'text': 'a look and we make it a little bit', 'start': 2154.8, 'duration': 4.84
+    },
+    {'text': 'bigger yes wees an on defly synthesis', 'start': 2156.079, 'duration': 6.921
+    },
+    {'text': 'framework for linear temporal logic over', 'start': 2159.64, 'duration': 6.08
+    },
+    {'text': 'finite traces based on top- down de', 'start': 2163.0, 'duration': 4.76
+    },
+    {'text': 'ministic automat', 'start': 2165.72, 'duration': 5.72
+    },
+    {'text': 'construction help so I turn over to J', 'start': 2167.76, 'duration': 6.8
+    },
+    {'text': 'GPT and I say what is a linear temporal', 'start': 2171.44, 'duration': 4.639
+    },
+    {'text': 'logic over finite', 'start': 2174.56, 'duration': 4.799
+    },
+    {'text': 'traces a type of modal temporal logic', 'start': 2176.079, 'duration': 5.681
+    },
+    {'text': 'that allows reasoning about sequences of', 'start': 2179.359, 'duration': 5.0
+    },
+    {'text': 'events or States over time now this', 'start': 2181.76, 'duration': 4.72
+    },
+    {'text': "sounds easy it's widely used in computer", 'start': 2184.359, 'duration': 3.601
+    },
+    {'text': 'science particular in the very ification', 'start': 2186.48, 'duration': 3.56
+    },
+    {'text': 'and specification of systems where it', 'start': 2187.96, 'duration': 3.879
+    },
+    {'text': 'helps Express properties about the', 'start': 2190.04, 'duration': 5.52
+    },
+    {'text': "ordering of events ah so let's have a", 'start': 2191.839, 'duration': 6.641
+    },
+    {'text': 'look we have a linear time in LTL time', 'start': 2195.56, 'duration': 5.64
+    },
+    {'text': 'is considered linear to no special', 'start': 2198.48, 'duration': 5.44
+    },
+    {'text': 'relativity my goodness meaning that at', 'start': 2201.2, 'duration': 5.2
+    },
+    {'text': "any point in time there's exactly one", 'start': 2203.92, 'duration': 4.88
+    },
+    {'text': 'possible future this makes it different', 'start': 2206.4, 'duration': 4.36
+    },
+    {'text': 'from branching time Logics where', 'start': 2208.8, 'duration': 4.039
+    },
+    {'text': 'multiple Futures might be possible for a', 'start': 2210.76, 'duration': 4.24
+    },
+    {'text': 'given point so we are in the easy', 'start': 2212.839, 'duration': 5.161
+    },
+    {'text': 'solution yippe', 'start': 2215.0, 'duration': 5.119
+    },
+    {'text': 'temporal operators include several', 'start': 2218.0, 'duration': 3.68
+    },
+    {'text': 'temporal operators that Express', 'start': 2220.119, 'duration': 3.681
+    },
+    {'text': 'properties about how proposition relate', 'start': 2221.68, 'duration': 6.56
+    },
+    {'text': 'over time next over finite traces is a', 'start': 2223.8, 'duration': 7.039
+    },
+    {'text': 'variant of the standard LTL tailored for', 'start': 2228.24, 'duration': 5.68
+    },
+    {'text': 'reasoning about finite sequence of event', 'start': 2230.839, 'duration': 7.081
+    },
+    {'text': 'also known as finite traces ah', 'start': 2233.92, 'duration': 6.56
+    },
+    {'text': 'okay this is now in cont with the', 'start': 2237.92, 'duration': 5.12
+    },
+    {'text': 'classical LTL which is normally over', 'start': 2240.48, 'duration': 5.72
+    },
+    {'text': 'infinite traces sequences that continue', 'start': 2243.04, 'duration': 4.96
+    },
+    {'text': 'indefinitely no we looking here for', 'start': 2246.2, 'duration': 3.0
+    },
+    {'text': 'finite', 'start': 2248.0, 'duration': 4.28
+    },
+    {'text': 'traces especially for system testing', 'start': 2249.2, 'duration': 6.36
+    },
+    {'text': "it's good if it's finite finite sequence", 'start': 2252.28, 'duration': 6.92
+    },
+    {'text': 'temporal operators again terminal State', 'start': 2255.56, 'duration': 5.84
+    },
+    {'text': 'examples here consider a finer trace of', 'start': 2259.2, 'duration': 4.08
+    },
+    {'text': 'a system States and you want to express', 'start': 2261.4, 'duration': 4.0
+    },
+    {'text': 'that certain condition a should hold', 'start': 2263.28, 'duration': 4.12
+    },
+    {'text': 'globally and condition B eventually', 'start': 2265.4, 'duration': 4.24
+    },
+    {'text': 'occurs within that', 'start': 2267.4, 'duration': 6.12
+    },
+    {'text': 'Trace I I get an idea what it', 'start': 2269.64, 'duration': 6.52
+    },
+    {'text': 'is is a variant of a linear temporal', 'start': 2273.52, 'duration': 4.28
+    },
+    {'text': 'logic designed for reasoning about', 'start': 2276.16, 'duration': 3.679
+    },
+    {'text': 'sequences of event or states that have a', 'start': 2277.8, 'duration': 5.08
+    },
+    {'text': 'finite length over finite traces well', 'start': 2279.839, 'duration': 4.76
+    },
+    {'text': 'suited for practical application where', 'start': 2282.88, 'duration': 3.88
+    },
+    {'text': 'system behavior is observed or verified', 'start': 2284.599, 'duration': 4.681
+    },
+    {'text': 'over bounded periods the temporal', 'start': 2286.76, 'duration': 4.72
+    },
+    {'text': 'operators retain their standard meaning', 'start': 2289.28, 'duration': 4.039
+    },
+    {'text': 'but adapted to the context of finite', 'start': 2291.48, 'duration': 3.92
+    },
+    {'text': 'sequences making this logic a powerful', 'start': 2293.319, 'duration': 4.441
+    },
+    {'text': 'tool for specifying and verifying', 'start': 2295.4, 'duration': 6.08
+    },
+    {'text': 'temporal properties in finite', 'start': 2297.76, 'duration': 6.68
+    },
+    {'text': 'domains wow this is completely outside', 'start': 2301.48, 'duration': 5.32
+    },
+    {'text': 'of my bubble I hope you know this I hope', 'start': 2304.44, 'duration': 4.04
+    },
+    {'text': 'you are famili familiar with this and I', 'start': 2306.8, 'duration': 5.68
+    },
+    {'text': 'hope you can apply this for causal', 'start': 2308.48, 'duration': 8.44
+    },
+    {'text': 'reasoning and time sequences and and and', 'start': 2312.48, 'duration': 7.52
+    },
+    {'text': 'so a new framework for linear temporal', 'start': 2316.92, 'duration': 5.72
+    },
+    {'text': 'logic over finite', 'start': 2320.0, 'duration': 6.079
+    },
+    {'text': 'traces my goodness okay I think this is', 'start': 2322.64, 'duration': 5.6
+    },
+    {'text': 'it with the little bit more challenging', 'start': 2326.079, 'duration': 6.721
+    },
+    {'text': 'AI papers of today so now relax we are', 'start': 2328.24, 'duration': 7.96
+    },
+    {'text': 'coming now into the simple AI papers and', 'start': 2332.8, 'duration': 6.68
+    },
+    {'text': "let's start with some trivialities here", 'start': 2336.2, 'duration': 6.56
+    },
+    {'text': 'brain magnetic resonance imagery and how', 'start': 2339.48, 'duration': 6.48
+    },
+    {'text': 'we can improve this and we want a new', 'start': 2342.76, 'duration': 7.12
+    },
+    {'text': 'anatomical Foundation model for brain', 'start': 2345.96, 'duration': 6.68
+    },
+    {'text': 'MRIs now everybody is talking about New', 'start': 2349.88, 'duration': 5.92
+    },
+    {'text': 'Foundation models for anatomically brain', 'start': 2352.64, 'duration': 5.959
+    },
+    {'text': "MRIs and I don't know I've seen about 30", 'start': 2355.8, 'duration': 6.16
+    },
+    {'text': '40 Foundation models in today I think', 'start': 2358.599, 'duration': 7.0
+    },
+    {'text': "it's kind about more than 300 EI", 'start': 2361.96, 'duration': 8.28
+    },
+    {'text': 'preprints that Google replied to me so', 'start': 2365.599, 'duration': 7.281
+    },
+    {'text': 'Foundation model go for eing', 'start': 2370.24, 'duration': 6.68
+    },
+    {'text': 'today what are we talking', 'start': 2372.88, 'duration': 4.04
+    },
+    {'text': 'about contrastive learning methods okay', 'start': 2377.599, 'duration': 6.121
+    },
+    {'text': 'we extend the capabilities of existing', 'start': 2381.44, 'duration': 4.84
+    },
+    {'text': 'contrastive learning approaches by', 'start': 2383.72, 'duration': 5.32
+    },
+    {'text': 'incorporating additional anatomical', 'start': 2386.28, 'duration': 6.24
+    },
+    {'text': 'measures into the loss function we', 'start': 2389.04, 'duration': 5.16
+    },
+    {'text': 'propose here a contrastive learning', 'start': 2392.52, 'duration': 4.36
+    },
+    {'text': 'framework that builds upon previous work', 'start': 2394.2, 'duration': 6.24
+    },
+    {'text': 'that aous patient age as a proxy', 'start': 2396.88, 'duration': 5.959
+    },
+    {'text': 'metadata and also includes information', 'start': 2400.44, 'duration': 5.0
+    },
+    {'text': 'derived from anatomical measures such as', 'start': 2402.839, 'duration': 4.161
+    },
+    {'text': 'the sickness of some', 'start': 2405.44, 'duration': 3.36
+    },
+    {'text': 'cical', 'start': 2407.0, 'duration': 4.92
+    },
+    {'text': 'elements okay so we just okay I see', 'start': 2408.8, 'duration': 4.92
+    },
+    {'text': "what's going on this is", 'start': 2411.92, 'duration': 4.96
+    },
+    {'text': 'nice gstream analysis schizophrenia', 'start': 2413.72, 'duration': 7.399
+    },
+    {'text': 'Alzheimer oh great so an extended', 'start': 2416.88, 'duration': 6.199
+    },
+    {'text': 'contrastive approach that leverages', 'start': 2421.119, 'duration': 4.561
+    },
+    {'text': 'anatomical information in brain', 'start': 2423.079, 'duration': 5.801
+    },
+    {'text': 'MRIs including age of the patient and', 'start': 2425.68, 'duration': 5.48
+    },
+    {'text': 'specific anatomical feature of the', 'start': 2428.88, 'duration': 6.12
+    },
+    {'text': 'patient real nice you see this is how', 'start': 2431.16, 'duration': 7.32
+    },
+    {'text': 'simple it can be University of toine', 'start': 2435.0, 'duration': 7.359
+    },
+    {'text': 'Italy what else we have for you infinity', 'start': 2438.48, 'duration': 6.76
+    },
+    {'text': 'mat is scalable instruction tuning data', 'start': 2442.359, 'duration': 5.801
+    },
+    {'text': 'set in programmatic mathematical', 'start': 2445.24, 'duration': 5.96
+    },
+    {'text': 'reasoning yes reasoning today is all', 'start': 2448.16, 'duration': 6.4
+    },
+    {'text': 'over reasoning is our main topic and', 'start': 2451.2, 'duration': 6.52
+    },
+    {'text': 'they give us here a new data set for for', 'start': 2454.56, 'duration': 5.44
+    },
+    {'text': 'instruction tuning for', 'start': 2457.72, 'duration': 5.52
+    },
+    {'text': 'mathematics computation methodologies', 'start': 2460.0, 'duration': 5.4
+    },
+    {'text': 'programmatic mathematical reasoning data', 'start': 2463.24, 'duration': 6.4
+    },
+    {'text': 'augmentation data synthesis logical', 'start': 2465.4, 'duration': 7.28
+    },
+    {'text': 'inconsistencies very nice methodology', 'start': 2469.64, 'duration': 4.92
+    },
+    {'text': 'cre a new data', 'start': 2472.68, 'duration': 4.639
+    },
+    {'text': 'set what else do we', 'start': 2474.56, 'duration': 6.72
+    },
+    {'text': 'have fot self-explaining graph newal', 'start': 2477.319, 'duration': 6.321
+    },
+    {'text': 'networks you might say that sounds', 'start': 2481.28, 'duration': 4.799
+    },
+    {'text': 'simple published', 'start': 2483.64, 'duration': 5.04
+    },
+    {'text': "today uh let's go here just make it a", 'start': 2486.079, 'duration': 5.401
+    },
+    {'text': 'little bit bigger so we all can read it', 'start': 2488.68, 'duration': 4.84
+    },
+    {'text': 'recent advancements in graph new network', 'start': 2491.48, 'duration': 4.0
+    },
+    {'text': 'have spurred an up search of research', 'start': 2493.52, 'duration': 4.04
+    },
+    {'text': 'dedicated to enhancing the', 'start': 2495.48, 'duration': 5.04
+    },
+    {'text': 'explainability of GNN particular and', 'start': 2497.56, 'duration': 5.84
+    },
+    {'text': 'critical domain such as medicine oh that', 'start': 2500.52, 'duration': 5.64
+    },
+    {'text': 'would be great so the aors propose here', 'start': 2503.4, 'duration': 5.959
+    },
+    {'text': 'a meter learning self-explaining graph', 'start': 2506.16, 'duration': 5.439
+    },
+    {'text': 'new network and novel framework that', 'start': 2509.359, 'duration': 3.921
+    },
+    {'text': 'generates explanation to support', 'start': 2511.599, 'duration': 5.881
+    },
+    {'text': 'predictions in few short sentences', 'start': 2513.28, 'duration': 6.799
+    },
+    {'text': 'explainability graph new network meta', 'start': 2517.48, 'duration': 7.08
+    },
+    {'text': 'learning okay we get the idea nice new', 'start': 2520.079, 'duration': 7.161
+    },
+    {'text': 'medical application absolutely great if', 'start': 2524.56, 'duration': 5.16
+    },
+    {'text': 'you have an explainable AI', 'start': 2527.24, 'duration': 5.92
+    },
+    {'text': "structure what is next for us I've", 'start': 2529.72, 'duration': 6.399
+    },
+    {'text': 'chosen this here August 14', 'start': 2533.16, 'duration': 6.76
+    },
+    {'text': '2024 do GPT language model suffer from', 'start': 2536.119, 'duration': 6.921
+    },
+    {'text': 'split personality disorder I thought the', 'start': 2539.92, 'duration': 5.56
+    },
+    {'text': 'title is funny because now we have', 'start': 2543.04, 'duration': 4.6
+    },
+    {'text': 'something that is strictly', 'start': 2545.48, 'duration': 5.359
+    },
+    {'text': 'applied to human I mean a personality', 'start': 2547.64, 'duration': 5.719
+    },
+    {'text': 'disorder should be a human somewhere in', 'start': 2550.839, 'duration': 5.441
+    },
+    {'text': 'the loop no and now we apply this human', 'start': 2553.359, 'duration': 7.281
+    },
+    {'text': 'term to a GPT and we say do language', 'start': 2556.28, 'duration': 7.16
+    },
+    {'text': 'model suffer from split personality this', 'start': 2560.64, 'duration': 5.64
+    },
+    {'text': 'order and this is an advent of substance', 'start': 2563.44, 'duration': 6.04
+    },
+    {'text': 'free psycho matrics psychometric', 'start': 2566.28, 'duration': 4.52
+    },
+    {'text': 'absolutely', 'start': 2569.48, 'duration': 3.52
+    },
+    {'text': 'fascinating I chosen this because there', 'start': 2570.8, 'duration': 4.84
+    },
+    {'text': 'was the faculty of Economics at the Kyo', 'start': 2573.0, 'duration': 4.72
+    },
+    {'text': 'University in Tokyo', 'start': 2575.64, 'duration': 4.12
+    },
+    {'text': 'then we have the psychometric Center', 'start': 2577.72, 'duration': 3.76
+    },
+    {'text': 'University of Cambridge no idea that', 'start': 2579.76, 'duration': 3.839
+    },
+    {'text': 'this exists The Faculty of Science and', 'start': 2581.48, 'duration': 4.0
+    },
+    {'text': 'Technology at Kaio', 'start': 2583.599, 'duration': 3.921
+    },
+    {'text': 'University', 'start': 2585.48, 'duration': 6.2
+    },
+    {'text': 'beautiful introduction yes I think this', 'start': 2587.52, 'duration': 6.64
+    },
+    {'text': 'is something to read and enjoy it', 'start': 2591.68, 'duration': 6.919
+    },
+    {'text': 'reading it just to relax what we have', 'start': 2594.16, 'duration': 7.679
+    },
+    {'text': 'else model merging yeah everything is', 'start': 2598.599, 'duration': 5.601
+    },
+    {'text': 'about model merging today and they have', 'start': 2601.839, 'duration': 4.0
+    },
+    {'text': 'here an overview of the methods the', 'start': 2604.2, 'duration': 3.48
+    },
+    {'text': 'theories and application and', 'start': 2605.839, 'duration': 4.441
+    },
+    {'text': 'opportunities if you merge all the', 'start': 2607.68, 'duration': 5.96
+    },
+    {'text': 'models that we have model merging also', 'start': 2610.28, 'duration': 5.52
+    },
+    {'text': 'know as model Fusion is an effective', 'start': 2613.64, 'duration': 3.919
+    },
+    {'text': 'technique that merges the parameter of', 'start': 2615.8, 'duration': 3.68
+    },
+    {'text': 'multiple separate models with different', 'start': 2617.559, 'duration': 6.201
+    },
+    {'text': 'capabilities to build a universal model', 'start': 2619.48, 'duration': 7.24
+    },
+    {'text': 'beautiful this is how you can do it AAL', 'start': 2623.76, 'duration': 4.92
+    },
+    {'text': 'learning model merging separate models', 'start': 2626.72, 'duration': 4.52
+    },
+    {'text': 'yes yes yes this is a very nice paper', 'start': 2628.68, 'duration': 5.6
+    },
+    {'text': 'just to read it on a nice afternoon and', 'start': 2631.24, 'duration': 5.96
+    },
+    {'text': 'this is funny because this caught my eye', 'start': 2634.28, 'duration': 5.799
+    },
+    {'text': 'neurons on a chip so we go beyond', 'start': 2637.2, 'duration': 6.48
+    },
+    {'text': 'conventional Sil silicon based Computing', 'start': 2640.079, 'duration': 6.721
+    },
+    {'text': 'and we go to bioc Computing emerges as', 'start': 2643.68, 'duration': 6.56
+    },
+    {'text': 'an promising alternative so Nvidia we go', 'start': 2646.8, 'duration': 5.68
+    },
+    {'text': 'now from your classical Nvidia silicon', 'start': 2650.24, 'duration': 4.76
+    },
+    {'text': 'based chips to either', 'start': 2652.48, 'duration': 6.359
+    },
+    {'text': 'pure Optical chips or I think an', 'start': 2655.0, 'duration': 7.319
+    },
+    {'text': 'interesting alternative is bio Computing', 'start': 2658.839, 'duration': 5.641
+    },
+    {'text': "so if you're interested where bio", 'start': 2662.319, 'duration': 4.441
+    },
+    {'text': "Computing is today's state-of-the-art in", 'start': 2664.48, 'duration': 5.04
+    },
+    {'text': 'bio Computing I thought this would be a', 'start': 2666.76, 'duration': 6.559
+    },
+    {'text': 'nice paper for you neural bio Computing', 'start': 2669.52, 'duration': 6.24
+    },
+    {'text': 'models have the potential to become an', 'start': 2673.319, 'duration': 5.561
+    },
+    {'text': 'alternative to Silicon based', 'start': 2675.76, 'duration': 6.2
+    },
+    {'text': 'computers okay do I have something left', 'start': 2678.88, 'duration': 7.479
+    },
+    {'text': 'I have one publication left for the end', 'start': 2681.96, 'duration': 6.68
+    },
+    {'text': "yes I always like this format look it's", 'start': 2686.359, 'duration': 5.041
+    },
+    {'text': 'so beautiful here just make it a little', 'start': 2688.64, 'duration': 4.959
+    },
+    {'text': 'bit bigger we are talking here about', 'start': 2691.4, 'duration': 5.0
+    },
+    {'text': 'something absolute classical I have four', 'start': 2693.599, 'duration': 4.641
+    },
+    {'text': 'or five video videos on my Channel about', 'start': 2696.4, 'duration': 5.64
+    },
+    {'text': 'this multi-agent cooperative strategy', 'start': 2698.24, 'duration': 6.839
+    },
+    {'text': 'through heterogeneous and homogeneous', 'start': 2702.04, 'duration': 5.68
+    },
+    {'text': 'value decomposition strategies so this', 'start': 2705.079, 'duration': 4.681
+    },
+    {'text': 'is just to relax this is something that', 'start': 2707.72, 'duration': 5.44
+    },
+    {'text': 'we are familiar this is within my bubble', 'start': 2709.76, 'duration': 5.96
+    },
+    {'text': 'I hope it is also within your bubble of', 'start': 2713.16, 'duration': 4.48
+    },
+    {'text': 'learning so we are here about', 'start': 2715.72, 'duration': 4.399
+    },
+    {'text': 'multi-agent reinforcement learning so', 'start': 2717.64, 'duration': 3.719
+    },
+    {'text': 'beautifully you have you have the', 'start': 2720.119, 'duration': 3.161
+    },
+    {'text': 'keywords clearly at the beginning of', 'start': 2721.359, 'duration': 4.441
+    },
+    {'text': 'your publication please if you write a', 'start': 2723.28, 'duration': 5.0
+    },
+    {'text': 'new publication follow this idea it', 'start': 2725.8, 'duration': 4.72
+    },
+    {'text': 'makes it so much easier to immediately', 'start': 2728.28, 'duration': 4.319
+    },
+    {'text': 'understand what the paper is all about', 'start': 2730.52, 'duration': 4.12
+    },
+    {'text': 'value function factorization this is', 'start': 2732.599, 'duration': 4.361
+    },
+    {'text': "what we're going to talk about having a", 'start': 2734.64, 'duration': 4.679
+    },
+    {'text': 'look at this paper of course it is based', 'start': 2736.96, 'duration': 3.84
+    },
+    {'text': "since we're talking about multi-agent", 'start': 2739.319, 'duration': 2.961
+    },
+    {'text': 'reinforcement learning on a mock of', 'start': 2740.8, 'duration': 3.72
+    },
+    {'text': 'decision process and we have and this is', 'start': 2742.28, 'duration': 4.0
+    },
+    {'text': 'the speciality of this paper', 'start': 2744.52, 'duration': 4.039
+    },
+    {'text': 'heterogeneous', 'start': 2746.28, 'duration': 6.48
+    },
+    {'text': 'agents and yes you know multi-agent', 'start': 2748.559, 'duration': 6.401
+    },
+    {'text': 'reinforcement learning mall and', 'start': 2752.76, 'duration': 4.839
+    },
+    {'text': 'Cooperative Mall become solution for', 'start': 2754.96, 'duration': 6.359
+    },
+    {'text': 'many UNM robot cluster tasks yes', 'start': 2757.599, 'duration': 5.681
+    },
+    {'text': 'beautiful and you see exactly where this', 'start': 2761.319, 'duration': 2.841
+    },
+    {'text': 'is', 'start': 2763.28, 'duration': 3.52
+    },
+    {'text': 'going we investigate how to make the', 'start': 2764.16, 'duration': 5.399
+    },
+    {'text': 'learning process from Individual action', 'start': 2766.8, 'duration': 5.24
+    },
+    {'text': 'value function to the Joint action value', 'start': 2769.559, 'duration': 4.841
+    },
+    {'text': 'function more directional from A New', 'start': 2772.04, 'duration': 5.079
+    },
+    {'text': 'Perspective obtaining a more accurate', 'start': 2774.4, 'duration': 5.199
+    },
+    {'text': "representation of the individual's", 'start': 2777.119, 'duration': 6.561
+    },
+    {'text': 'impact on the team of all those robots', 'start': 2779.599, 'duration': 5.96
+    },
+    {'text': 'and the authors of this paper propose', 'start': 2783.68, 'duration': 5.32
+    },
+    {'text': 'here a novel value value function', 'start': 2785.559, 'duration': 5.921
+    },
+    {'text': 'factorization methodology and they call', 'start': 2789.0, 'duration': 5.24
+    },
+    {'text': 'this the Q type mix which performs', 'start': 2791.48, 'duration': 4.72
+    },
+    {'text': 'hierarchical value DEC composition based', 'start': 2794.24, 'duration': 4.359
+    },
+    {'text': 'solely on agent types provided by the', 'start': 2796.2, 'duration': 4.76
+    },
+    {'text': 'environmental human input so if you want', 'start': 2798.599, 'duration': 6.161
+    },
+    {'text': 'to learn here about a new M methodology', 'start': 2800.96, 'duration': 5.96
+    },
+    {'text': 'this is the paper for you this is', 'start': 2804.76, 'duration': 6.12
+    },
+    {'text': 'beautiful this was the last one and I', 'start': 2806.92, 'duration': 6.08
+    },
+    {'text': 'hope you enjoyed it I wanted to go', 'start': 2810.88, 'duration': 4.92
+    },
+    {'text': 'outside of my learning bubble I wanted', 'start': 2813.0, 'duration': 6.04
+    },
+    {'text': 'to discover and show you new AI papers', 'start': 2815.8, 'duration': 6.4
+    },
+    {'text': 'published today August 12th August 14', 'start': 2819.04, 'duration': 7.0
+    },
+    {'text': '2024 that I have no idea of that', 'start': 2822.2, 'duration': 5.84
+    },
+    {'text': "stimulate me that say hey there's", 'start': 2826.04, 'duration': 4.44
+    },
+    {'text': 'something I do not know I want to learn', 'start': 2828.04, 'duration': 3.96
+    },
+    {'text': 'more about this I want to be able to', 'start': 2830.48, 'duration': 5.079
+    },
+    {'text': 'apply these new theories to my AI', 'start': 2832.0, 'duration': 6.359
+    },
+    {'text': 'application in all the different fields', 'start': 2835.559, 'duration': 4.921
+    },
+    {'text': 'and I hope you enjoyed it and maybe I', 'start': 2838.359, 'duration': 5.521
+    },
+    {'text': 'motivated you to continue learning to', 'start': 2840.48, 'duration': 5.359
+    },
+    {'text': 'add new knowledge because I think it', 'start': 2843.88, 'duration': 3.64
+    },
+    {'text': 'will be essential', 'start': 2845.839, 'duration': 5.641
+    },
+    {'text': 'especially if we move from AI 2.0 to', 'start': 2847.52, 'duration': 7.96
+    },
+    {'text': 'Quantum AI on Quantum Compu machines but', 'start': 2851.48, 'duration': 8.56
+    },
+    {'text': 'more about this in a later video', 'start': 2855.48, 'duration': 4.56
+    }
+]

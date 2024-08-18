@@ -1,3 +1,7 @@
 typer
 click
 youtube-transcript-api
+ollama
+requests
+pydantic
+python_dotenv
