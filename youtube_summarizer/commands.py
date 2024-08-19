@@ -3,6 +3,7 @@ import click
 import sqlite3
 from rich import print
 
+from youtube_summarizer.config import appConfig
 
 @click.command()
 @click.option("--db", default='summarizer.db', help="File path of the sqlite database to use.")
@@ -37,6 +38,13 @@ def drop_db(db = 'summarizer.db'):
         click.echo(f"Dropped the database:{os.path.abspath(db)}.")
     else:
         click.echo(f'Database {os.path.abspath(db)} not found.')
+
+
+@click.command()
+def config():
+    """ Dump the configuration. """
+    click.echo(appConfig)
+
 
 
 @click.group()
