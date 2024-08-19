@@ -2,34 +2,29 @@ import os
 import click
 import sqlite3
 from rich import print
+from rich import print
+from rich.pretty import Pretty
+from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api.formatters import TextFormatter
 
 from youtube_summarizer.config import appConfig
+from youtube_summarizer.database import SummarizeDb
+
+from youtube_summarizer.video_info import VideoInfo
+
 
 @click.command()
-@click.option("--db", default='summarizer.db', help="File path of the sqlite database to use.")
+@click.option("--db", default=appConfig.get("DATABASE_PATH"), 
+              help="File path of the sqlite database to use.")
 @click.option("--schema", default='schema.sql', help="The schema file used to create the database.")
-def init_db(db= 'summarizer.db', 
-            schema='schema.sql'):
+def init_db(db, schema):
     """
         Will generate the sqlite database using the schema file.
     """
-    click.echo("Initializing the database.....")
-    base_dir = os.path.abspath(os.path.dirname(__file__))
-    schema_path = os.path.join(base_dir, schema)
-    print(f'Db path: {db}')
-    print(f'Schema path: {schema_path}')
-    conn = sqlite3.connect(db)
-    cursor = conn.cursor()
-    with open(schema_path, 'r') as f:
-        schema_sql = f.read()
-        print(schema_sql)
-        cursor.executescript(schema_sql)
-    conn.commit()
-    conn.close()
-    click.echo("Initialized the database")
+    SummarizeDb.init_db(db, schema)
 
 @click.command()
-@click.option("--db", default='summarizer.db', help="File path of the sqlite database to drop.")
+@click.option("--db", default=appConfig.get("DATABASE_PATH"), help="File path of the sqlite database to drop.")
 def drop_db(db = 'summarizer.db'):
     """ Drop the database """
     click.echo("Dropping the database ...")
@@ -43,8 +38,20 @@ def drop_db(db = 'summarizer.db'):
 @click.command()
 def config():
     """ Dump the configuration. """
-    click.echo(appConfig)
+    print(Pretty(appConfig, expand_all=True))
 
+@click.command()
+@click.option("--id", default='KyD8VIK032o', help="The id of the video to get text from.")
+def video_text(id: str):
+    """ Get video text. """
+    transcript = YouTubeTranscriptApi.get_transcript(id)
+    db = SummarizeDb()
+    db.insert_transcript(id, transcript)
+    formatter = TextFormatter()
+    txt_formatted = formatter.format_transcript(transcript)
+    db.insert_file(id, txt_formatted)
+    info = VideoInfo(id)
+    print(info)
 
 
 @click.group()
@@ -53,3 +60,5 @@ def cli():
 
 cli.add_command(init_db)
 cli.add_command(drop_db)
+cli.add_command(config)
+cli.add_command(video_text)

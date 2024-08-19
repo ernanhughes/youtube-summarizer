@@ -1,10 +1,7 @@
 import os
-import typer
 import click
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
-from ollama import chat
-from youtube_summarizer.database import initialize_database
 from youtube_summarizer.config import appConfig
 from youtube_summarizer.utils import isSQLite3
 

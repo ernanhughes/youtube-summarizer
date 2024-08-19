@@ -6,18 +6,12 @@ from pathlib import Path
 from typing import Any, Union, get_type_hints
 from dotenv import load_dotenv
 from tempfile import gettempdir
+from click import UsageError
 
 from youtube_summarizer.utils import get_default_data_dir
 
 load_dotenv()
 
-
-class EnvConfigError(Exception):
-    pass
-
-
-def _parse_bool(val: Union[str, bool]) -> bool:
-    return val if isinstance(val, bool) else val.lower() in ["true", "yes", "1"]
 
 CONFIG_FOLDER = os.path.expanduser("~/.config")
 SUMMARIZER_CONFIG_FOLDER = Path(CONFIG_FOLDER) / "summarizer"
@@ -29,6 +23,8 @@ DEFAULT_CONFIG = {
     "OLLAMA_HOST": "localhost:11434",
     "BASEDIR": os.path.abspath(os.path.dirname(__file__)),
     "USE_DATABASE": "false",
+    "SCHEMA_FILE": "schema.sql",
+    "DATABASE_PATH": os.environ.get("DATABASE_PATH", "youtube_summarizer.db"),
     "DATABASE_URL": os.environ.get("DATABASE_URL", "sqlite:///youtube_summarizer.db"),
     "OLLAMA_URL": os.environ.get("OLLAMA_URL", "http://127.0.0.1:5000"),
     "OLLAMA_MODEL": os.environ.get("OLLAMA_MODEL", "llama3.1"),
@@ -36,127 +32,49 @@ DEFAULT_CONFIG = {
     "LOG_FILE": str(os.environ.get("LOG_FILENAME", "youtube_summarizer.log")),
 }
 
-class EnvConfig(dict):
-    """
-    Map environment variables to class fields according to these rules:
-      - Field won't be parsed unless it has a type annotation
-      - Field will be skipped if not in all caps
-    """
 
+class Config(dict):
     def __init__(self, config_path: Path, **defaults: Any):
-        for field in self.__annotations__:
-            if not field.isupper():
-                continue
+        self.config_path = config_path
 
-            # Check and validate the field
-            value = self._get_env_value(field, env)
+        if self._exists:
+            self._read()
+            has_new_config = False
+            for key, value in defaults.items():
+                if key not in self:
+                    has_new_config = True
+                    self[key] = value
+            if has_new_config:
+                self._write()
+        else:
+            config_path.parent.mkdir(parents=True, exist_ok=True)
+            super().__init__(**defaults)
+            self._write()
 
-            self.__setattr__(field, value)
+    @property
+    def _exists(self) -> bool:
+        return self.config_path.exists()
 
-        if self.OLLAMA_URL == "":
-            self.OLLAMA_URL = f"http://{self.OLLAMA_HOST}"
+    def _write(self) -> None:
+        with open(self.config_path, "w", encoding="utf-8") as file:
+            string_config = ""
+            for key, value in self.items():
+                string_config += f"{key}={value}\n"
+            file.write(string_config)
 
-    def __repr__(self):
-        return str(self.__dict__)
+    def _read(self) -> None:
+        with open(self.config_path, "r", encoding="utf-8") as file:
+            for line in file:
+                if line.strip() and not line.startswith("#"):
+                    key, value = line.strip().split("=", 1)
+                    self[key] = value
 
-    def _get_env_value(self, field, env):
-        # Raise EnvConfigError if required field not supplied
-        default_value = getattr(self, field, None)
-        if default_value is None and env.get(field) is None:
-            raise EnvConfigError("The {} field is required".format(field))
-
-        # Cast env var value to expected type and raise AppConfigError on failure
-        try:
-            var_type = get_type_hints(EnvConfig)[field]
-            if var_type == bool:
-                value = _parse_bool(env.get(field, default_value))
-            elif var_type == list[str]:
-                value = env.get(field)
-                if value is None:
-                    value = default_value
-                else:
-                    value = json.loads(value)
-            else:
-                value = var_type(env.get(field, default_value))
-            return value
-        except ValueError:
-            raise EnvConfigError(
-                'Unable to cast value of "{}" to type "{}" for "{}" field'.format(
-                    env[field], var_type, field  # type: ignore
-                )
-            )
-
-# Expose EnvConfig object for app to import
-envConfig = EnvConfig(SUMMARIZER_CONFIG_FOLDER, **DEFAULT_CONFIG)
+    def get(self, key: str) -> str:  # type: ignore
+        # Prioritize environment variables over config file.
+        value = os.getenv(key) or super().get(key)
+        if not value:
+            raise UsageError(f"Missing config key: {key}")
+        return value
 
 
-class AppConfig(EnvConfig):
-    logger: Logger
-    def __init__(self, path: Path | None = None):
-        super().__init__(os.environ)
-        if path is None:
-            path = envConfig.DATA_DIR / "config.json"
-        self._path = path
-        self._data = {
-            "theme": "dark",
-        }
-        try:
-            with open(self._path, "r") as f:
-                saved = json.load(f)
-                self._data = self._data | saved
-        except FileNotFoundError:
-            Path.mkdir(self._path.parent, parents=True, exist_ok=True)
-            self.save()
-        self.logger = AppConfig.configure_logging()
-
-    def set(self, key, value):
-        self._data[key] = value
-        self.save()
-
-    def get(self, key):
-        return self._data.get(key)
-
-    def save(self):
-        with open(self._path, "w") as f:
-            json.dump(self._data, f)
-
-    def __str__(self):
-        """Return a string representation of the configuration."""
-        return "\n".join(f"{attr}: {value}" for attr, value in self.__dict__.items())
-
-    def __repr__(self):
-        """Return a string representation for debugging."""
-        return self.__str__()
-
-    @staticmethod
-    def configure_logging(log_file="app.log", level=logging.DEBUG):
-        """Configures logging for the Flask application.
-
-        Args:
-            log_file (str, optional): Path to the log file. Defaults to 'app.log'.
-            level (int, optional): Logging level. Defaults to logging.DEBUG.
-        """
-        logger = logging.getLogger(__name__)
-        logger.setLevel(level)
-
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-
-        # create formatter
-        formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-        )
-        # add formatter to ch
-        ch.setFormatter(formatter)
-
-        # add to file
-        fh = logging.FileHandler(log_file)
-        fh.setLevel(level)
-        logger.addHandler(fh)
-
-        return logger
-
-# Expose AppConfig object for app to import
-appConfig = AppConfig()
-
-
+appConfig = Config(SUMMARIZER_CONFIG_FOLDER, **DEFAULT_CONFIG)
