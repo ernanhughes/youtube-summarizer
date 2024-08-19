@@ -1,7 +1,5 @@
 import os
 import click
-import sqlite3
-from rich import print
 from rich import print
 from rich.pretty import Pretty
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -10,7 +8,7 @@ from youtube_transcript_api.formatters import TextFormatter
 from youtube_summarizer.config import appConfig
 from youtube_summarizer.database import SummarizeDb
 
-from youtube_summarizer.video_info import VideoInfo
+from youtube_summarizer.video_info import VideoInfo, VideoInfoData
 
 
 @click.command()
@@ -44,8 +42,11 @@ def config():
 @click.option("--id", default='KyD8VIK032o', help="The id of the video to get text from.")
 def video_text(id: str):
     """ Get video text. """
-    transcript = YouTubeTranscriptApi.get_transcript(id)
     db = SummarizeDb()
+    info = VideoInfo(id)
+    info_data = info.scrape_video_data()
+    db.insert_video_data(info_data)
+    transcript = YouTubeTranscriptApi.get_transcript(id)
     db.insert_transcript(id, transcript)
     formatter = TextFormatter()
     txt_formatted = formatter.format_transcript(transcript)

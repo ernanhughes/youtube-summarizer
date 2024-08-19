@@ -1,8 +1,11 @@
 import os
 import sqlite3
 from sqlite3 import connect
-
+from typing import Dict
+from dataclasses import asdict
 from youtube_summarizer.config import appConfig
+from youtube_summarizer.video_info import VideoInfoData
+
 
 class SummarizeDb:
     def __init__(self, db_file: str = appConfig.get("DATABASE_PATH")):
@@ -31,7 +34,50 @@ class SummarizeDb:
         self.cn.commit()
         print(f'Inserted transcript {id}')
 
-
+    def insert_video_data(self, video_data: VideoInfoData):
+        """
+        Inserts video data into the VIDEO_DATA table.
+        
+        :param video_data: VideoInfoData object containing the video information to insert.
+        """
+        # Convert the VideoInfoData dataclass to a dictionary
+        video_dict = asdict(video_data)
+        
+        # Prepare the SQL statement
+        sql = """
+        INSERT INTO VIDEO_DATA (
+            video_id, title, upload_date, duration, description, genre, 
+            is_paid, is_unlisted, is_family_friendly, channel_id, 
+            views, likes, dislikes, regionsAllowed, thumbnail_url
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """
+        
+        # Prepare the data for insertion
+        data = (
+            video_dict['id'], 
+            video_dict['title'], 
+            video_dict['upload_date'], 
+            video_dict['duration'], 
+            video_dict['description'], 
+            video_dict['genre'], 
+            int(video_dict['is_paid']), 
+            int(video_dict['is_unlisted']), 
+            int(video_dict['is_family_friendly']), 
+            video_dict['channel_id'], 
+            video_dict['views'], 
+            video_dict['likes'], 
+            video_dict['dislikes'], 
+            video_dict['regionsAllowed'], 
+            video_dict['thumbnail_url']
+        )
+        
+        try:
+            self.cur.execute(sql, data)
+            self.cn.commit()
+            print("Video data inserted successfully.")
+        except sqlite3.Error as e:
+            print(f"An error occurred: {e}")
+            self.cn.rollback()
 
 
     def insert_file(self, id: str, data: str):
