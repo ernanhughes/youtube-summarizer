@@ -1,56 +1,31 @@
-import os
-import click
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api.formatters import TextFormatter
-from youtube_summarizer.config import appConfig
-from youtube_summarizer.utils import isSQLite3
+import requests
+
+from youtube_summarizer.prompts import PROMPTS
+
+api_base_url = "http://127.0.0.1:5000"
 
 
+def summarize(model: str, transcription_text: str):
+    check_ollama_running()
+    prompt_text = PROMPTS.replace("{transcription_text}", transcription_text)
+    payload = {
+        "model": model,
+        "prompt": prompt_text,
+        "stream": False,
+        "keep_alive": "5s",
+    }
+    request_url = api_base_url + "/api/generate"
+    response = requests.post(request_url, json=payload)
+    return response
 
 
-def get_video_text(video_id: str):
-    transcript = YouTubeTranscriptApi.get_transcript(video_id)
-    formatter = TextFormatter()
-    txt_formatted = formatter.format_transcript(transcript)
-    print(txt_formatted)
+def check_ollama_running():
+    api_response = requests.get(api_base_url, timeout=5)
+    if api_response.status_code == 200 and api_response.text == "Ollama is running":
+        print("API endpoint is running.")
+    else:
+        raise OllamaConnectionError()
 
 
-def main(video_id: str):
-    db_path = appConfig.get("DATABASE_URL")
-    if not isSQLite3(db_path):
-        schema_file = 'schema.sql'
-        initialize_database(db_path, schema_file)
-    transcript = YouTubeTranscriptApi.get_transcript(video_id)
-    with open(f'{video_id}.json', 'w', encoding='utf-8') as f:
-        f.write(str(transcript))
-    formatter = TextFormatter()
-    txt_formatted = formatter.format_transcript(transcript)
-    print(txt_formatted)
-    # Now we can write it out to a file.
-    with open(f'{video_id}.txt', 'w', encoding='utf-8') as f:
-        f.write(txt_formatted)
-
-def get_filename_without_file_extension(path):
-    return os.path.splitext(os.path.basename(path))[0]
-
-
-@click.group()
-def cli():
+class OllamaConnectionError(Exception):
     pass
-
-@click.command()
-def initdb():
-    click.echo('Initialized the database')
-
-@click.command()
-def dropdb():
-    click.echo('Dropped the database')
-
-cli.add_command(initdb)
-cli.add_command(dropdb)
-
-
-if __name__ == "__main__":
-    typer.run(main)
-
-

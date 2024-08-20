@@ -2,11 +2,10 @@ import os
 import click
 from rich import print
 from rich.pretty import Pretty
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api.formatters import TextFormatter
 
 from youtube_summarizer.config import appConfig
 from youtube_summarizer.database import SummarizeDb
+from youtube_summarizer.ollama_call import chat_with_model
 
 from youtube_summarizer.video_info import VideoInfo, VideoInfoData
 
@@ -14,7 +13,8 @@ from youtube_summarizer.video_info import VideoInfo, VideoInfoData
 @click.command()
 @click.option("--db", default=appConfig.get("DATABASE_PATH"), 
               help="File path of the sqlite database to use.")
-@click.option("--schema", default='schema.sql', help="The schema file used to create the database.")
+@click.option("--schema", default=appConfig.get("SCHEMA_FILE"), 
+              help="The schema file used to create the database.")
 def init_db(db, schema):
     """
         Will generate the sqlite database using the schema file.
@@ -42,17 +42,26 @@ def config():
 @click.option("--id", default='KyD8VIK032o', help="The id of the video to get text from.")
 def video_text(id: str):
     """ Get video text. """
+    info = VideoInfo(id)
     db = SummarizeDb()
-    info = VideoInfo(id)
-    info_data = info.scrape_video_data()
-    db.insert_video_data(info_data)
-    transcript = YouTubeTranscriptApi.get_transcript(id)
-    db.insert_transcript(id, transcript)
-    formatter = TextFormatter()
-    txt_formatted = formatter.format_transcript(transcript)
-    db.insert_file(id, txt_formatted)
-    info = VideoInfo(id)
-    print(info)
+    db.insert_video_data(info.video_data)
+    db.insert_transcript(id, info.get_transcript())
+    db.insert_text(id, info.get_text())
+    txt = info.get_text()
+    print(txt)
+
+
+@click.command()
+@click.option("--model", default='llama3.1', help="The model used to chat.")
+@click.option("--prompt", default='Why is the sky blue?', help="The prompt used to chat.")
+@click.option("--role", default='user', help="The user type.")
+def chat(model: str, prompt: str, role :str):
+    """ Get video text. """
+    messages = [{"role": role, "content": prompt}]
+    response = chat_with_model(model, messages)
+    db = SummarizeDb()
+    db.insert_chat_response(response)
+    print(response)
 
 
 @click.group()
@@ -62,4 +71,5 @@ def cli():
 cli.add_command(init_db)
 cli.add_command(drop_db)
 cli.add_command(config)
+cli.add_command(chat)
 cli.add_command(video_text)

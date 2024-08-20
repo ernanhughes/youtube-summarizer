@@ -19,17 +19,6 @@ Then include the bullet point summary of the text within the <TEXT> delimiter.
 
 The format of your response needs to be in markdown formatting. Use "- " for bullet points.
 
-Do not just list the general topic or makes things up, only list the actual facts shared.
-
-For example, if a speaker claims that "an increase in X leads to a decrease in
-Y", then you should include that claim in the summary, rather than saying "the
-speaker discussed the relationship between X and Y".
-
-After you have made all bullet points, add one more bullet point that summarizes
-the main point of the text. Here is an example:
-
-- Main message: <MAIN MESSAGE HERE>
-
 ######
 
 <TITLE>
