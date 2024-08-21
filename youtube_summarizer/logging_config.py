@@ -1,5 +1,5 @@
-from logging import getLogger, StreamHandler, Formatter, Handler, NOTSET, getLevelName
 from datetime import datetime as date_time
+from logging import getLogger, Handler
 from sqlite3 import connect
 
 
